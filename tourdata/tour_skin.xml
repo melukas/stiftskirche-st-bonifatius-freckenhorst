@@ -1,0 +1,2580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.17">
+
+    
+  <!-- Spot Style - Default Point Spot Style 1 -->
+  <style name="IconDefaultPointSpotStyle1"
+         url="%FIRSTXML%/spots/hotspot_neutral_sequence_user_defaultpoint0.png"
+         visible="false"
+
+         frame="0"
+         lastframe="17"
+         framewidth="40"
+         frameheight="40"
+         stopspotsequence="false"
+         onloaded="setdefaultanimatedspotframe();startspotanimation(0.1);"
+
+         onhover="onhoverIconDefaultPointSpotStyle1"
+         onout="onoutIconDefaultPointSpotStyle1"
+         />
+  <action name="onhoverIconDefaultPointSpotStyle1">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle1">
+    hideTooltip();
+
+
+
+  </action>
+
+          <!-- unsupported kind of display : PointMap -->
+
+          <!-- unsupported kind of display : PointMap -->
+
+
+
+	
+	<!-- ********* -->
+	<!-- FloorPlan -->
+	<!-- ********* -->
+	
+	<ptplugin name="floorPlan" engine="KolorFloorPlan">
+		<settings>
+			<option name="background_color" value="ffffff" type="string" />
+			<option name="background_lighter_color" value="ffffff" type="string" />
+			<option name="background_darker_color" value="d5d5d5" type="string" />
+			<option name="background_alpha" value="0.698039215686274" type="float" />
+			<option name="text_color" value="000000" type="string" />
+			<option name="resize" value="true" type="bool" />
+			<option name="fp_selector" value="multiple" type="string" />
+			<option name="fp_selector_label" value="floorPlanmenu_label" type="string" />
+			<option name="display_title" value="true" type="bool" />
+			
+			<option name="title" value="project_floor_title" type="string" />
+			
+			<option name="title_font" value="Verdana" type="string" />
+			<option name="title_size" value="14" type="int" />
+			<option name="title_weight" value="normal" type="string" />
+			<option name="title_decoration" value="normal" type="string" />
+			<option name="title_color" value="000000" type="string" />
+			<option name="display_orientation" value="false" type="bool" />
+			<option name="display_radar" value="true" type="bool" />
+			<option name="radar_radius" value="60" type="int" />
+			<option name="radar_line_width" value="2" type="int" />
+			<option name="radar_line_color" value="000000" type="string" />
+			<option name="radar_line_alpha" value="1" type="float" />
+			<option name="radar_fill_color" value="ff9538" type="string" />
+			<option name="radar_fill_alpha" value="0.300007629510948" type="float" />
+			<option name="close_on_click" value="false" type="bool" />
+			<option name="zorder" value="0" type="int" />
+		</settings>
+		
+		<floorplanItems selectedItem="fpitemmain" selectedSpot="" selectedSpotScene="" selectedSpotHeading="" selectedSpotFov="">
+				
+				<floorplanItem 
+					name="fpitemmain" 
+					width="694" 
+					height="400" 
+					groupName="" 
+					url="floorplan/plan.png" 
+					title="project_floor_title"
+					heading="0">
+							<spot name="spotmap32" posX="0.241189" posY="0.40153" heading="195" desc="spotmap32_tooltip" descType="tooltip" groupName="" isScene="true" scene="pano11" jsClick="spotmap32ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap33" posX="0.809471" posY="0.353729" heading="270" desc="spotmap33_tooltip" descType="tooltip" groupName="" isScene="true" scene="pano10" jsClick="spotmap33ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap34" posX="0.882159" posY="0.351816" heading="90" desc="spotmap34_tooltip" descType="tooltip" groupName="" isScene="true" scene="pano16" jsClick="spotmap34ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap35" posX="0.736784" posY="0.353729" heading="270" desc="spotmap35_tooltip" descType="tooltip" groupName="" isScene="true" scene="pano15" jsClick="spotmap35ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap36" posX="0.475771" posY="0.353729" heading="90" desc="spotmap36_tooltip" descType="tooltip" groupName="" isScene="true" scene="pano13" jsClick="spotmap36ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap37" posX="0.312775" posY="0.200765" heading="280" desc="spotmap37_tooltip" descType="tooltip" groupName="" isScene="true" scene="pano17" jsClick="spotmap37ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap38" posX="0.722467" posY="0.512428" heading="335" desc="spotmap38_tooltip" descType="tooltip" groupName="" isScene="true" scene="pano14" jsClick="spotmap38ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap103" posX="0.109031" posY="0.145315" heading="270" desc="spotmap103_tooltip" descType="tooltip" groupName="" isScene="true" scene="pano12" jsClick="spotmap103ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap1.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap104" posX="0.0748899" posY="0.8413" heading="30" desc="spotmap104_tooltip" descType="tooltip" groupName="" isScene="true" scene="pano9" jsClick="spotmap104ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							</spot>
+				</floorplanItem>
+			
+			
+		</floorplanItems>
+	</ptplugin>
+	
+	<action name="kolorFloorplanJsReady-floorPlan">
+		set(ptplugin[floorPlan].jsready, true);
+	</action>
+	
+	
+		<!-- floorplan main spots counter : 9 -->
+			<action name="spotmap32ActionSpotFloorPlan">
+          if (xml.scene != pano11,
+            mainloadscene(pano11);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+			<action name="spotmap33ActionSpotFloorPlan">
+          if (xml.scene != pano10,
+            mainloadscene(pano10);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+			<action name="spotmap34ActionSpotFloorPlan">
+          if (xml.scene != pano16,
+            mainloadscene(pano16);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+			<action name="spotmap35ActionSpotFloorPlan">
+          if (xml.scene != pano15,
+            mainloadscene(pano15);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+			<action name="spotmap36ActionSpotFloorPlan">
+          if (xml.scene != pano13,
+            mainloadscene(pano13);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+			<action name="spotmap37ActionSpotFloorPlan">
+          if (xml.scene != pano17,
+            mainloadscene(pano17);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+			<action name="spotmap38ActionSpotFloorPlan">
+          if (xml.scene != pano14,
+            mainloadscene(pano14);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+			<action name="spotmap103ActionSpotFloorPlan">
+          if (xml.scene != pano12,
+            mainloadscene(pano12);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+			<action name="spotmap104ActionSpotFloorPlan">
+          if (xml.scene != pano9,
+            mainloadscene(pano9);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+	
+	
+	
+	<events name="floorPlanEvents" 
+	onxmlcomplete="ifnot(floorPlanFloorPlanLoaded,set(tour_displayfloorplan,true););floorPlanActivateDefaultSpot();" 
+	onviewchanged="floorPlanOnViewChange();" 
+	onhidetourfloorplan="floorPlanCloseTourFloorPlan();" 
+	onshowtourfloorplan="if(tour_displayfloorplan,floorPlanOpenTourFloorPlan(););" 
+	onTourStart="set(loadedState-floorPlanArea, get(tour_displaycontrols));floorPlanOpenTourFloorPlan();"
+	keep="true" />
+	
+	
+	<krpano floorPlanFloorPlanLoaded="false" />
+	
+	<action name="floorPlanHideTourFloorPlan">
+		hideKolorArea-floorPlanArea(true);
+	</action>
+	
+	<action name="floorPlanCloseTourFloorPlan">
+		if(ptplugin[floorPlanArea].isOpen,
+			closeKolorArea-floorPlanArea();
+		);
+	</action>
+	
+	<action name="floorPlanShowTourFloorPlan">
+		showKolorArea-floorPlanArea(true);
+	</action>
+	
+	<action name="floorPlanOpenTourFloorPlan">
+		ifnot(ptplugin[floorPlanArea].isOpen,
+			openKolorArea-floorPlanArea();
+		);
+	</action>
+	
+	<action name="floorPlanOnViewChange">
+		if (floorPlanFloorPlanLoaded == true,
+			ifnot(ptplugin[floorPlan].floorplanItems[0].selectedSpot == "",
+				js(invokePluginFunction(floorPlan, changeDirection, get(xml.scene), get(view.hlookat), get(view.fov)));
+			);
+		);
+	</action>
+	
+	<action name="floorPlanActivateSpot">
+		
+		set(ptplugin[floorPlan].floorplanItems[0].selectedSpot, %1);
+		set(ptplugin[floorPlan].floorplanItems[0].selectedItem, %2);
+		
+		ifnot(%1 == "",
+			set(ptplugin[floorPlan].floorplanItems[0].selectedSpotScene, get(xml.scene));
+			set(ptplugin[floorPlan].floorplanItems[0].selectedSpotHeading, get(view.hlookat));
+			set(ptplugin[floorPlan].floorplanItems[0].selectedSpotFov, get(view.fov));
+		);
+		
+		js(invokePluginFunction(floorPlan, selectSpot, %1, %2, %3));
+	</action>
+	
+	<action name="floorPlanDeactivateSpot">
+		set(ptplugin[floorPlan].floorplanItems[0].selectedSpot, "");
+		
+		js(invokePluginFunction(floorPlan, unselectSpot));
+	</action>
+	
+	<action name="floorPlanActivateDefaultSpot">
+		set(floorPlanFloorPlanLoaded, true);
+		
+		set(floorPlanSpotFound, "");
+		set(floorPlanSpotScene, "");
+		set(floorPlanItemFound, "");
+		set(floorPlanItemSearch, true);
+		set(floorPlanSpotSearch, true);
+		set(floorPlanSpotSearchContinue, true);
+		
+		
+		set(defaultfloorplaniteminc-wait,50);
+		for(set(defaultfloorplaniteminc,0), defaultfloorplaniteminc LT ptplugin[floorPlan].floorplanItems[0].floorplanItem.count , inc(defaultfloorplaniteminc),
+			if(defaultfloorplaniteminc-wait == defaultfloorplaniteminc,
+				add(defaultfloorplaniteminc-wait,50);
+				wait(0);
+			);
+			if(floorPlanSpotSearch == true,
+				
+				if(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].groupName == scene[get(xml.scene)].group,
+					set(floorPlanItemFound, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].name));
+					set(ptplugin[floorPlan].floorplanItems[0].selectedItem, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].name));
+					set(floorPlanItemSearch, false);
+				,
+					
+					if(floorPlanItemFound == "",
+						set(floorPlanItemFound, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[fpitemmain].name));
+						set(ptplugin[floorPlan].floorplanItems[0].selectedItem, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[fpitemmain].name));
+					);
+				);
+			);
+			if(floorPlanSpotSearch == true,
+				set(defaultspotinc-wait,50);
+				for(set(defaultspotinc,0), defaultspotinc LT ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].spot.count , inc(defaultspotinc),
+					if(defaultspotinc-wait == defaultspotinc,
+						add(defaultspotinc-wait,50);
+						wait(0);
+					);
+					if(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].isScene == true,
+					
+						if(floorPlanSpotSearchContinue == true,
+							if(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].scene == xml.scene,
+								set(floorPlanSpotFound, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].name));
+								set(floorPlanSpotScene, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].scene));
+								set(ptplugin[floorPlan].floorplanItems[0].selectedItem, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].name));
+								if(floorPlanItemSearch == false,
+									set(floorPlanSpotSearchContinue, false);
+									set(floorPlanSpotSearch, false);
+								);
+							);
+						);
+					);
+					
+				);
+			);
+		);
+		
+		if(floorPlanSpotFound == "",
+			
+			
+			floorPlanDeactivateSpot();
+			
+			
+			set(ptplugin[floorPlan].floorplanItems[0].selectedItem, get(floorPlanItemFound));
+			
+			
+			ifnot(ptplugin[floorPlan].floorplanItems[0].selectedItem == "",
+				floorPlanActivateSpot("", get(ptplugin[floorPlan].floorplanItems[0].selectedItem), "");
+			);
+		,
+			
+			floorPlanActivateSpot(get(floorPlanSpotFound), get(ptplugin[floorPlan].floorplanItems[0].selectedItem), get(floorPlanSpotScene));
+		);
+	</action>
+	
+	<action name="floorPlanChangeTitle">
+		js(invokePluginFunction(floorPlan, changeTitle, %1));
+	</action>
+	
+	<ptplugin name="floorPlanArea" engine="kolorArea">
+	<settings>
+		<option name="position" value="left" type="string" />
+		<option name="start_position" value="left" type="string" />
+		<option name="margin_x" value="5" type="int" />
+		<option name="margin_y" value="5" type="int" />
+		<option name="display_title" value="true" type="bool" />
+		<option name="title" value="project_floor_title" type="string" />
+		<option name="title_font" value="Verdana" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_decoration" value="normal" type="string" />
+		<option name="title_color" value="000000" type="string" />
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="background_color" value="ffffff" type="string" />
+		<option name="background_alpha" value="0.698039215686274" type="float" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.500007629510948" type="float" />
+		<option name="padding" value="15" type="int" />
+		<option name="topleft_radius" value="10" type="int" />
+		<option name="topright_radius" value="10" type="int" />
+		<option name="bottomleft_radius" value="10" type="int" />
+		<option name="bottomright_radius" value="10" type="int" />
+		<option name="area_border_width" value="0" type="int" />
+		<option name="area_border_color" value="ffffff" type="string" />
+		<option name="area_width" value="750" type="int" />
+		<option name="area_height" value="500" type="int" />
+		<option name="area_width_unit" value="pixel" type="string" />
+		<option name="area_height_unit" value="pixel" type="string" />
+		<option name="animation" value="true" type="bool" />
+		<option name="animation_duration" value="300" type="int" />
+		<option name="close_on_click" value="false" type="bool" />
+		<option name="refresh_content" value="false" type="bool" />
+		<option name="open_callback" value="addKolorFloorPlan('floorPlan', 'floorPlanArea-floorplanDIV');" type="string" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback-floorPlanArea')" type="string" />
+		<option name="zorder" value="0" type="int" />
+	</settings>
+	</ptplugin>
+	
+	<action name="kolorAreaJsReady-floorPlanArea">
+		set(ptplugin[floorPlanArea].jsready, true);
+	</action>
+	
+	<action name="openKolorArea-floorPlanArea">
+		ifnot(ptplugin[floorPlanArea].isOpen,
+			set(ptplugin[floorPlanArea].isOpen, true);
+			set(ptplugin[floorPlanArea].visible, true);
+			set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+			pauseautorotation(forceplugin);
+			js(showKolorArea(floorPlanArea, &lt;div id="floorPlanArea-floorplanDIV"&gt;&lt;/div&gt;));
+			events.dispatch(onremovedisplayedobject);
+		);
+	</action>
+	
+	<action name="closeKolorArea-floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,
+			resumeautorotation(forceplugin);
+			js(invokePluginFunction(floorPlanArea, closeKolorArea));
+			set(ptplugin[floorPlanArea].isOpen, false);
+		);
+	</action>
+	
+	<action name="toggleKolorArea-floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,
+			closeKolorArea-floorPlanArea();
+		,
+			openKolorArea-floorPlanArea();
+		);
+	</action>
+	
+	<action name="closeKolorAreaCallback-floorPlanArea">
+		set(ptplugin[floorPlanArea].isOpen, false);hideFloorplan();
+	</action>
+	
+	<action name="changeTitleKolorArea-floorPlanArea">
+		js(invokePluginFunction(floorPlanArea, changeTitle, %1));
+	</action>
+	
+	<action name="showKolorArea-floorPlanArea">
+		set(ptplugin[floorPlanArea].visible, true);
+		set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+		pauseautorotation(forceplugin);
+		js(invokePluginFunction(floorPlanArea, showKolorArea, %1));
+		events.dispatch(onremovedisplayedobject);
+	</action>
+		
+	<action name="hideKolorArea-floorPlanArea">
+		resumeautorotation(forceplugin);
+		set(ptplugin[floorPlanArea].visible, false);
+		js(invokePluginFunction(floorPlanArea, hideKolorArea, %1));
+	</action>
+	
+	<events name="kolorAreaEvents-floorPlanArea" 
+		keep="true"
+		hidetourcontrols="if(loadedState-floorPlanArea,hideKolorArea-floorPlanArea(false););"
+		showtourcontrols="if(tour_displayfloorplan,showKolorArea-floorPlanArea(false););set(loadedState-floorPlanArea, get(tour_displaycontrols));"
+	/>
+	
+	
+  <!-- ************ -->
+  <!-- iControl Bar -->
+  <!-- ************ -->
+
+
+  <krpano theme11barbuilt="false" theme11backgroundwidthwhenclosed="0" theme11backgroundwidthwhenopened="0" theme11IsOpened="false" />
+  <events name="theme11events" onxmlcomplete="theme11buildMenuBar();" keep="true"/>
+  <action name="theme11buildMenuBar">
+    ifnot (theme11barbuilt, theme11buildMenu(); set(theme11barbuilt, true););
+  </action>
+
+  <style name="theme11_btn_style"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="40" height="40"
+         crop="0|0|60|60"
+         onovercrop="0|60|60|60"
+         ondowncrop="0|120|60|60"
+         onhover="showTooltip(bottom, theme11menuTooltipStyle, bottom);"
+         onout="hideTooltip();"
+         />
+
+  <layer name="theme11_menu_bg"
+         keep="true"
+         type="container"
+         zorder="1"
+         width="40"
+         height="40"
+         align="bottom"
+         x="0" y="10"
+         maskchildren="true"
+         rotate="0"
+         visible="false"
+         >
+
+
+    <layer name="theme11btn_in"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_zoom_in.png"
+            ondown="set(fov_moveforce, -1);"
+            onup="set(fov_moveforce, 0);"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_izoomInTip"
+            devices="desktop"
+            />
+    <layer name="theme11btn_out"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_zoom_out.png"
+            ondown="set(fov_moveforce, +1);"
+            onup="set(fov_moveforce, 0);"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_izoomOutTip"
+            devices="desktop"
+            />
+
+    <layer name="theme11btn_left"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_move_left.png"
+            ondown="set(hlookat_moveforce, -1);"
+            onup="set(hlookat_moveforce, 0);"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_imoveLeftTip"
+            devices="desktop"
+            />
+    <layer name="theme11btn_right"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_move_right.png"
+            ondown="set(hlookat_moveforce, +1);"
+            onup="set(hlookat_moveforce, 0);"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_imoveRightTip"
+            devices="desktop"
+            />
+
+    <layer name="theme11btn_up"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_move_up.png"
+            ondown="set(vlookat_moveforce, -1);"
+            onup="set(vlookat_moveforce, 0);"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_imoveUpTip"
+            devices="desktop"
+            />
+    <layer name="theme11btn_down"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_move_down.png"
+            ondown="set(vlookat_moveforce, +1);"
+            onup="set(vlookat_moveforce, 0);"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_imoveDownTip"
+            devices="desktop"
+            />
+
+
+
+    <layer name="theme11btn_prev_pano"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_previous_scene.png"
+            onclick="loadPreviousScene();"
+            style="theme11_btn_style"
+            tooltip="controlBar_iprevSceneTip"
+            visible="false"
+            />
+    <layer name="theme11btn_next_pano"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_next_scene.png"
+            onclick="loadNextScene();"
+            style="theme11_btn_style"
+            tooltip="controlBar_inextSceneTip"
+            visible="false"
+            />
+
+  <layer name="theme11btn_hide_thumbnails"
+          url="%FIRSTXML%/graphics/icontrolbar/btn_hide_thumbnails.png"
+          style="theme11_btn_style"
+          onclick="hideTourThumbnails();"
+          tooltip="controlBar_ihideThumbnailsTip"
+          visible="false"
+          />
+  <layer name="theme11btn_show_thumbnails"
+          url="%FIRSTXML%/graphics/icontrolbar/btn_show_thumbnails.png"
+          style="theme11_btn_style"
+          onclick="showTourThumbnails();"
+          tooltip="controlBar_ishowThumbnailsTip"
+          visible="false"
+          />
+
+
+    <layer name="theme11btn_display_map"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_map.png"
+            onclick="theme11displayMap();"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_idisplayMapTip"
+            />
+    <layer name="theme11btn_hide_map"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_map.png"
+            onclick="theme11hideMap();"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_ihideMapTip"
+            />
+
+    <layer name="theme11btn_display_floorplan"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_floorplan.png"
+            onclick="showFloorplan();"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_idisplayFloorplanTip"
+            />
+    <layer name="theme11btn_hide_floorplan"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_floorplan.png"
+            onclick="hideFloorplan();"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_ihideFloorplanTip"
+            />
+
+
+    <layer name="theme11btn_openfs"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_enter_fs.png"
+            onclick="enterFullscreen();"
+            style="theme11_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            tooltip="controlBar_iopenFsTip"
+            />
+    <layer name="theme11btn_closefs"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_close_fs.png"
+            onclick="exitFullscreen();"
+            style="theme11_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            tooltip="controlBar_icloseFsTip"
+            />
+
+    <layer name="theme11btn_autorotate_on"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_start_autorotation.png"
+            onclick="startautorotation();"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_iautorotateOnTip"
+            />
+    <layer name="theme11btn_autorotate_off"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_stop_autorotation.png"
+            onclick="stopautorotation();"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_iautorotateOffTip"
+            />
+
+
+
+    <layer name="theme11btn_display_help"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_help.png"
+            onclick="theme11displayHelp();"
+            style="theme11_btn_style"
+            devices="desktop"
+            visible="false"
+            tooltip="controlBar_idisplayHelpTip"
+            />
+    <layer name="theme11btn_close_help"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_help.png"
+            onclick="theme11closeHelp();"
+            style="theme11_btn_style"
+            visible="false"
+            devices="desktop"
+            tooltip="controlBar_ihideHelpTip"
+            />
+
+
+    <layer name="theme11btn_display_info"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_info.png"
+            onclick="showTourInfo();"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_idisplayInfoTip"
+            />
+
+    <layer name="theme11btn_close_info"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_info.png"
+            onclick="hideTourInfo();"
+            style="theme11_btn_style"
+            visible="false"
+            tooltip="controlBar_ihideInfoTip"
+            />
+
+
+    <layer name="theme11btn_hidecontrols"
+           url="%FIRSTXML%/graphics/icontrolbar/btn_hide_controls.png"
+           style="theme11_btn_style"
+           onclick="theme11hideMenuControls();hideTourControls();"
+           visible="false"
+           tooltip="controlBar_ihideControlsTip"
+           />
+    <layer name="theme11btn_showcontrols"
+           url="%FIRSTXML%/graphics/icontrolbar/btn_show_controls.png"
+           style="theme11_btn_style"
+           onclick="theme11showMenuControls();showTourControls();"
+           tooltip="controlBar_idisplayControlsTip"
+           visible="false"
+           />
+ </layer>
+
+
+
+
+	<events name="theme11hideshowthumbnailsevent" 
+		hidetourthumbnails="theme11updateHideShowThumbnailsButtons();" 
+		showtourthumbnails="theme11updateHideShowThumbnailsButtons();" 
+		keep="true" />
+	<action name="theme11HideHideShowThumbnailsButtons">
+		set(layer[theme11btn_show_thumbnails].visible, false);
+		set(layer[theme11btn_hide_thumbnails].visible, false);
+	</action>
+	<action name="theme11ShowHideShowThumbnailsButtons">
+		if (tour_displaythumbnails,
+			set(layer[theme11btn_hide_thumbnails].visible, true);
+			set(layer[theme11btn_show_thumbnails].visible, false);
+		,
+			set(layer[theme11btn_show_thumbnails].visible, true);
+			set(layer[theme11btn_hide_thumbnails].visible, false);
+		);
+	</action>
+	<action name="theme11updateHideShowThumbnailsButtons">
+		set(theme11DisplayHideShowThumbnailsButtons, false);
+		if (theme11IsOpened, set(theme11DisplayHideShowThumbnailsButtons, true););
+		if (theme11DisplayHideShowThumbnailsButtons,
+			theme11ShowHideShowThumbnailsButtons();
+		,
+			theme11HideHideShowThumbnailsButtons();
+		);
+	</action>
+
+
+  <action name="theme11hideMenuControls">
+    set(theme11IsOpened, false);
+    set(layer[theme11btn_hidecontrols].visible, false);
+    set(layer[theme11btn_showcontrols].visible, true);
+if (scene.count GT 1,
+	set(layer[theme11btn_next_pano].visible, false);
+	set(layer[theme11btn_prev_pano].visible, false);
+);
+
+
+if (device.desktop,
+	set(layer[theme11btn_in].visible, false);
+	set(layer[theme11btn_out].visible, false);
+);
+if (device.desktop,
+	set(layer[theme11btn_up].visible, false);
+	set(layer[theme11btn_down].visible, false);
+);
+if (device.desktop,
+	set(layer[theme11btn_left].visible, false);
+	set(layer[theme11btn_right].visible, false);
+);
+	theme11updateFullscreenButtons();
+	theme11updateHelpButtons();
+
+	theme11updateInfoButtons();
+
+	theme11updateAutorotationButtons();
+
+
+
+	theme11updateMapButtons();
+	theme11updateFloorplanButtons();
+
+	theme11updateHideShowThumbnailsButtons();
+
+    set(layer[theme11_menu_bg].width , get(theme11backgroundwidthwhenclosed));
+	set(layer[theme11_menu_bg].visible, true);
+  </action>
+  <action name="theme11showMenuControls">
+    set(theme11IsOpened, true);
+    set(layer[theme11btn_hidecontrols].visible, true);
+    set(layer[theme11btn_showcontrols].visible, false);
+	set(layer[theme11_menu_bg].visible, true);
+if (scene.count GT 1,
+	set(layer[theme11btn_next_pano].visible, true);
+	set(layer[theme11btn_prev_pano].visible, true);
+);
+
+
+if (device.desktop,
+	set(layer[theme11btn_in].visible, true);
+	set(layer[theme11btn_out].visible, true);
+);
+if (device.desktop,
+	set(layer[theme11btn_up].visible, true);
+	set(layer[theme11btn_down].visible, true);
+);
+if (device.desktop,
+	set(layer[theme11btn_left].visible, true);
+	set(layer[theme11btn_right].visible, true);
+);
+	theme11updateFullscreenButtons();
+	theme11updateHelpButtons();
+
+	theme11updateInfoButtons();
+
+	theme11updateAutorotationButtons();
+
+
+
+	theme11updateMapButtons();
+	theme11updateFloorplanButtons();
+
+	theme11updateHideShowThumbnailsButtons();
+
+    set(layer[theme11_menu_bg].width, get(theme11backgroundwidthwhenopened));
+  </action>
+
+  <layer name="theme11helpScreenBg"
+         align="center"
+         keep="true"
+         onclick="theme11closeHelp();"
+         url="%FIRSTXML%/graphics/icontrolbar/help_screen_bg.png"
+         visible="false"
+         rotate="-90"
+         height="50%"
+         width="prop"
+         zorder="97"
+         x="100%" />
+  <layer name="theme11helpScreenFg"
+         align="center"
+         keep="true"
+         onclick="theme11closeHelp();"
+         url="%FIRSTXML%/graphics/icontrolbar/help_screen_fg.png"
+         height="50%"
+         width="prop"
+         visible="false"
+         rotate="90"
+         zorder="98"
+         x="-100%"
+         displayed="false" />
+  <action name="theme11displayHelp">
+  if (device.desktop,
+    set(layer[theme11helpScreenFg].displayed,true);
+    set(layer[theme11helpScreenBg].visible,true);
+    set(layer[theme11helpScreenFg].visible,true);
+    tween(layer[theme11helpScreenFg].rotate,0, 1);
+    tween(layer[theme11helpScreenFg].x,0, 1);
+    tween(layer[theme11helpScreenBg].rotate,0, 1);
+    tween(layer[theme11helpScreenBg].x,0, 1);
+    theme11updateHelpButtons();
+  );
+  </action>
+  <action name="theme11closeHelp">
+  if (device.desktop,
+    set(layer[theme11helpScreenFg].displayed,false);
+    tween(layer[theme11helpScreenFg].rotate,  90, 1, easeOutQuad, set(layer[theme11helpScreenFg].visible,false););
+    tween(layer[theme11helpScreenFg].x, -100%, 1);
+    tween(layer[theme11helpScreenBg].rotate, -90, 1, easeOutQuad, set(layer[theme11helpScreenBg].visible,false););
+    tween(layer[theme11helpScreenBg].x, 100%, 1);
+    theme11updateHelpButtons();
+  );
+  </action>
+	<action name="theme11HideHelpButtons">
+		set(layer[theme11btn_display_help].visible, false);
+		set(layer[theme11btn_close_help].visible, false);
+	</action>
+	<action name="theme11ShowHelpButtons">
+		if (layer[theme11helpScreenFg].displayed,
+			set(layer[theme11btn_close_help].visible, true);
+			set(layer[theme11btn_display_help].visible, false);
+		,
+			set(layer[theme11btn_display_help].visible, true);
+			set(layer[theme11btn_close_help].visible, false);
+		);
+	</action>
+	<action name="theme11updateHelpButtons">
+	if (device.desktop,
+		set(theme11DisplayHelpButtons, false);
+		if (theme11IsOpened, set(theme11DisplayHelpButtons, true););
+		if (theme11DisplayHelpButtons,
+			theme11ShowHelpButtons();
+		,
+			theme11HideHelpButtons();
+		);
+	,
+		theme11HideHelpButtons();
+	);
+	</action>
+
+
+	<events name="theme11hideshowinfoevent" 
+		onhidetourinfo="theme11updateInfoButtons();" 
+		onshowtourinfo="theme11updateInfoButtons();" 
+		keep="true" />
+	<action name="theme11HideInfoButtons">
+		set(layer[theme11btn_display_info].visible, false);
+		set(layer[theme11btn_close_info].visible, false);
+	</action>
+	<action name="theme11ShowInfoButtons">
+		if (tour_displayinfo,
+			set(layer[theme11btn_close_info].visible, true);
+			set(layer[theme11btn_display_info].visible, false);
+		,
+			set(layer[theme11btn_display_info].visible, true);
+			set(layer[theme11btn_close_info].visible, false);
+		);
+	</action>
+	<action name="theme11updateInfoButtons">
+		set(theme11DisplayInfoButtons, false);
+		if (theme11IsOpened, set(theme11DisplayInfoButtons, true););
+		if (theme11DisplayInfoButtons,
+			theme11ShowInfoButtons();
+		,
+			theme11HideInfoButtons();
+		);
+	</action>
+
+  <action name="theme11displayMap">showMap();
+  </action>
+  <action name="theme11hideMap">hideMap();
+  </action>
+  
+  <events name="theme11displaymapchangeevent"
+          onshowtourmap="theme11updateMapButtons();"
+          onhidetourmap="theme11updateMapButtons();"
+          keep="true"/>
+	<action name="theme11HideMapButtons">
+		set(layer[theme11btn_display_map].visible, false);
+		set(layer[theme11btn_hide_map].visible, false);
+	</action>
+	<action name="theme11ShowMapButtons">
+		if (tour_displaymap,
+			set(layer[theme11btn_hide_map].visible, true);
+			set(layer[theme11btn_display_map].visible, false);
+		,
+			set(layer[theme11btn_display_map].visible, true);
+			set(layer[theme11btn_hide_map].visible, false);
+		);
+	</action>
+	<action name="theme11updateMapButtons">
+		set(theme11DisplayMapButtons, false);
+		if (theme11IsOpened, set(theme11DisplayMapButtons, true););
+		if (theme11DisplayMapButtons,
+			theme11ShowMapButtons();
+		,
+			theme11HideMapButtons();
+		);
+	</action>
+
+	<events name="theme11DisplayFloorPlanEvents" 
+		onshowtourfloorplan="theme11updateFloorplanButtons();" 
+		onhidetourfloorplan="theme11updateFloorplanButtons();" 
+		keep="true" />
+	<action name="theme11HideFloorplanButtons">
+		set(layer[theme11btn_display_floorplan].visible, false);
+		set(layer[theme11btn_hide_floorplan].visible, false);
+	</action>
+	<action name="theme11ShowFloorplanButtons">
+		if (tour_displayfloorplan,
+			set(layer[theme11btn_hide_floorplan].visible, true);
+			set(layer[theme11btn_display_floorplan].visible, false);
+		,
+			set(layer[theme11btn_display_floorplan].visible, true);
+			set(layer[theme11btn_hide_floorplan].visible, false);
+		);
+	</action>
+	<action name="theme11updateFloorplanButtons">
+		set(theme11DisplayFloorplanButtons, false);
+		if (theme11IsOpened, set(theme11DisplayFloorplanButtons, true););
+		if (theme11DisplayFloorplanButtons,
+			theme11ShowFloorplanButtons();
+		,
+			theme11HideFloorplanButtons();
+		);
+	</action>
+
+
+
+  <events name="theme11menufullscreenchangeevent"
+          onenterfullscreen="theme11updateFullscreenButtons();"
+          onexitfullscreen="theme11updateFullscreenButtons();"
+          keep="true"/>
+	<action name="theme11HideFullscreenButtons">
+		set(layer[theme11btn_openfs].visible , false);
+		set(layer[theme11btn_closefs].visible, false);
+	</action>
+	<action name="theme11ShowFullscreenButtons">
+		if (device.fullscreensupport,
+			if(tour_fullscreen,
+				set(layer[theme11btn_openfs].visible , false);
+				set(layer[theme11btn_closefs].visible, true);
+			,
+				set(layer[theme11btn_openfs].visible ,true);
+				set(layer[theme11btn_closefs].visible,false);
+			);
+		,
+			theme11HideFullscreenButtons();
+		);
+	</action>
+	<action name="theme11updateFullscreenButtons">
+		set(theme11DisplayFullscreenButtons, false);
+		if (theme11IsOpened, set(theme11DisplayFullscreenButtons, true););
+		if (theme11DisplayFullscreenButtons,
+			theme11ShowFullscreenButtons();
+		,
+			theme11HideFullscreenButtons();
+		);
+	</action>
+
+	<events name="theme11AutorotationEvents"
+		onstartautorotation="theme11updateAutorotationButtons();"
+		onresumeautorotation="theme11updateAutorotationButtons();"
+		onstopautorotation="theme11updateAutorotationButtons();"
+		onpauseautorotation="theme11updateAutorotationButtons();"
+		keep="true"/>
+	<action name="theme11HideAutorotationButtons">
+		set(layer[theme11btn_autorotate_off].visible, false);
+		set(layer[theme11btn_autorotate_on].visible , false);
+	</action>
+	<action name="theme11ShowAutorotationButtons">
+		if(tour_autorotateenabled==false,
+			set(layer[theme11btn_autorotate_off].visible, false);
+			set(layer[theme11btn_autorotate_on].visible , true);
+		,
+			set(layer[theme11btn_autorotate_off].visible, true);
+			set(layer[theme11btn_autorotate_on].visible , false);
+		);
+	</action>
+	<action name="theme11updateAutorotationButtons">
+		set(theme11DisplayAutorotationButtons, false);
+		if (theme11IsOpened, set(theme11DisplayAutorotationButtons, true););
+		if (theme11DisplayAutorotationButtons,
+			theme11ShowAutorotationButtons();
+		,
+			theme11HideAutorotationButtons();
+		);
+	</action>
+
+
+
+<layer name="theme11menuTooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	background="false"
+	border="false"
+	textshadow="1" textshadowrange="4.0" textshadowangle="45" textshadowcolor="0x000000" textshadowalpha="1"
+	css="color:#ffffff;font-family:Helvetica;font-weight:bold;font-size:18px;text-align:center;"
+	width="200"
+	height="50"
+	autoheight="false"
+	xoffset="0"
+	yoffset="0"
+	selectable="false"
+	zorder="0"
+	visible="false"
+	html=""
+	devices="html5"
+	edge="bottom"
+/>
+  <action name="theme11buildMenu">
+    
+    set(theme11button_pos, 0);
+
+	set(theme11backgroundwidthwhenclosed, 40);
+    set(layer[theme11btn_hidecontrols].x, get(theme11button_pos));
+    set(layer[theme11btn_showcontrols].x, get(theme11button_pos));
+    inc(theme11button_pos, 45);
+
+
+    set(layer[theme11btn_display_info].x, get(theme11button_pos));
+    set(layer[theme11btn_close_info].x  , get(theme11button_pos));
+    inc(theme11button_pos, 45);
+
+
+      if (device.desktop,
+        set(layer[theme11btn_display_help].x, get(theme11button_pos));
+        set(layer[theme11btn_close_help].x  , get(theme11button_pos));
+        inc(theme11button_pos, 45);
+      );
+
+      if (device.fullscreensupport,
+        set(layer[theme11btn_openfs].x , get(theme11button_pos));
+        set(layer[theme11btn_closefs].x, get(theme11button_pos));
+        inc(theme11button_pos, 45);
+      );
+
+
+      set(layer[theme11btn_display_map].x , get(theme11button_pos));
+      set(layer[theme11btn_hide_map].x    , get(theme11button_pos));
+      inc(theme11button_pos, 45);
+
+      set(layer[theme11btn_display_floorplan].x , get(theme11button_pos));
+      set(layer[theme11btn_hide_floorplan].x    , get(theme11button_pos));
+      inc(theme11button_pos, 45);
+
+
+      set(layer[theme11btn_autorotate_on].x , get(theme11button_pos));
+      set(layer[theme11btn_autorotate_off].x, get(theme11button_pos));
+      inc(theme11button_pos, 45);
+
+
+
+      set(layer[theme11btn_show_thumbnails].x, get(theme11button_pos));
+      set(layer[theme11btn_hide_thumbnails].x, get(theme11button_pos));
+      inc(theme11button_pos, 45);
+
+
+
+      if (device.desktop,
+        set(layer[theme11btn_right].x, get(theme11button_pos));
+        inc(theme11button_pos, 45);
+        set(layer[theme11btn_left].x, get(theme11button_pos));
+        inc(theme11button_pos, 45);
+      );
+
+      if (device.desktop,
+        set(layer[theme11btn_down].x, get(theme11button_pos));
+        inc(theme11button_pos, 45);
+        set(layer[theme11btn_up].x, get(theme11button_pos));
+        inc(theme11button_pos, 45);
+      );
+
+      if (device.desktop,
+        set(layer[theme11btn_out].x, get(theme11button_pos));
+        inc(theme11button_pos, 45);
+        set(layer[theme11btn_in].x, get(theme11button_pos));
+        inc(theme11button_pos, 45);
+      );
+
+    if (scene.count GT 1,
+        set(layer[theme11btn_next_pano].x, get(theme11button_pos));
+        inc(theme11button_pos, 45);
+        set(layer[theme11btn_prev_pano].x, get(theme11button_pos));
+        inc(theme11button_pos, 45);
+      );
+
+      dec(theme11button_pos, 5);
+
+      set(theme11backgroundwidthwhenopened, get(theme11button_pos));
+      set(layer[theme11_menu_bg].width, get(theme11backgroundwidthwhenopened));
+	
+	
+	
+    </action>
+
+	<events name="theme11StartTourEvents" onTourStart="theme11CallOnStartTour();" keep="true" />
+	
+	<action name="theme11CallOnStartTour">
+		
+		theme11showMenuControls();
+	</action>
+
+	<!-- ********************** -->
+	<!-- Classic Thumbnails Bar -->
+	<!-- ********************** -->
+
+
+
+
+
+<layer name="thumbnailsBar-thumbnailsBar-theme02" 
+	keep="true" 
+	type="image" 
+	visible="false"
+	align="top" 
+	
+		width="100%" 
+		height="0" 
+	
+	x="0"
+	y="5"
+	
+	url="%FIRSTXML%/graphics/classicthumbnailsbar/frame_bg.png" 
+	scale9grid="10|10|80|80"
+	
+	zorder="2"
+/>
+
+
+
+<layer name="thumbnailBorderSource-thumbnailsBar-theme02"
+	keep="true"
+	visible="false"
+	onloaded="loadedImages-thumbnailsBar-theme02(border);"
+	url="%FIRSTXML%/graphics/classicthumbnailsbar/thumbnails_states.png" 
+	offsetX="10"
+	offsetY="10"
+	quarterHeight="0"
+/>
+
+
+
+<layer name="tooltipStyle-thumbnailsBar-theme02"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	background="false"
+	border="false"
+	textshadow="1" textshadowrange="4.0" textshadowangle="45" textshadowcolor="0x000000" textshadowalpha="1"
+	css="color:#e6e6e6;font-family:Helvetica;font-weight:bold;font-size:18px;text-align:center;"
+	width="200"
+	height="20"
+	autoheight="true"
+	selectable="false"
+	zorder="0"
+	xoffset="0"
+	yoffset="0"
+	visible="false"
+	html=""
+	devices="html5"
+	edge="top"
+/>
+
+	<krpano arrow1Loaded-thumbnailsBar-theme02="false" arrow2Loaded-thumbnailsBar-theme02="false" borderLoaded-thumbnailsBar-theme02="false" thumbnailsLoadedCounter-thumbnailsBar-theme02="0" thumbsCount-thumbnailsBar-theme02="0" thumbsCounter-thumbnailsBar-theme02="0" firstInit-thumbnailsBar-theme02="false" />
+	
+	
+	<events name="thumbnailsScrollEvents-thumbnailsBar-theme02" 
+		keep="true" 
+		
+		onxmlcomplete="ifnot(startResize-thumbnailsBar-theme02,set(isLoaded-thumbnailsBar-theme02, true);if(isStarted-thumbnailsBar-theme02,onLoadCompleteHandler-thumbnailsBar-theme02();););"
+		onTourStart="set(isStarted-thumbnailsBar-theme02, true);if(isLoaded-thumbnailsBar-theme02,onLoadCompleteHandler-thumbnailsBar-theme02(););"
+		onnewpano="if(startResize-thumbnailsBar-theme02,if(firstInit-thumbnailsBar-theme02,onLoadCompleteHandler-thumbnailsBar-theme02();););"
+		onresize="onResizeHandler-thumbnailsBar-theme02();"
+		hidetourthumbnails="hideWithThumbnailsButton-thumbnailsBar-theme02();" 
+		showtourthumbnails="showWithThumbnailsButton-thumbnailsBar-theme02();" 
+		hidetourcontrols="hideWithControlsBar-thumbnailsBar-theme02();" 
+		showtourcontrols="showWithControlsBar-thumbnailsBar-theme02();" 
+		onenterfullscreen="delayedcall(0.2,scrollToCurrentThumb-thumbnailsBar-theme02(););"
+		onexitfullscreen="delayedcall(0.2,scrollToCurrentThumb-thumbnailsBar-theme02(););"
+	/>
+	
+	
+	<layer name="scrollAreaContainer-thumbnailsBar-theme02" 
+		keep="true"
+		type="container" 
+		align="topleft"
+		x="0"
+		y="0"
+		
+		marginX="0"
+		marginY="0"
+		
+		width="0" 
+		height="0"
+		
+		scrollSpeedInit="10"
+		scrollSpeed="10"
+		scrollSpeedMax="70"
+		scrollSpeedAcceleration="20"
+		
+		parent="thumbnailsBar-thumbnailsBar-theme02"
+		
+		thumbWidth="0"
+		thumbHeight="0"
+		
+		itemWidth="100"
+		itemHeight="50"
+		
+		offsetX="0"
+		offsetY="0"
+		
+		thumbSpacer="0"
+		currentThumbsCount="0"
+		
+		adjustToContent="true"
+		
+		zorder="1"
+		visible="false"
+		ready="false"
+	>
+	
+		
+		<layer name="thumbsScrollArea-thumbnailsBar-theme02" 
+			url="%FIRSTXML%/graphics/scrollarea.swf" 
+			alturl="%FIRSTXML%/graphics/scrollarea.js" 
+			align="top"
+			onhover_autoscrolling="false"
+			
+			x="0"
+			y="0"
+			 
+				direction="h" 
+		/>
+	
+	</layer>
+	
+	
+	
+	<layer name="scrollPrevArrow-thumbnailsBar-theme02" 
+		keep="true"
+		type="image"
+		visible="false"
+		parent="thumbnailsBar-thumbnailsBar-theme02"
+		targetHeight="0"
+		tagertWidth="0"
+		zorder="2"
+		onloaded="loadedImages-thumbnailsBar-theme02(arrow1);"
+			url="%FIRSTXML%/graphics/classicthumbnailsbar/btn_scroll_left.png"
+			align="left"
+	/>
+	
+	
+	
+	<layer name="scrollNextArrow-thumbnailsBar-theme02" 
+		keep="true"
+		type="image"
+		visible="false"
+		parent="thumbnailsBar-thumbnailsBar-theme02"
+		targetHeight="0"
+		targetWidth="0"
+		zorder="2"
+		onloaded="loadedImages-thumbnailsBar-theme02(arrow2);"
+			url="%FIRSTXML%/graphics/classicthumbnailsbar/btn_scroll_right.png"
+			align="right"
+	/>
+	
+	<action name="loadedImages-thumbnailsBar-theme02">
+		if(%1 == "arrow1",
+			set(arrow1Loaded-thumbnailsBar-theme02, true);
+		);
+		if(%1 == "arrow2",
+			set(arrow2Loaded-thumbnailsBar-theme02, true);
+		);
+		if(%1 == "border",
+			if(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+				set(borderLoaded-thumbnailsBar-theme02, true);
+			);
+		);
+		if(%1 == "thumbnail",
+			inc(thumbnailsLoadedCounter-thumbnailsBar-theme02);
+		);
+	</action>
+	
+	<action name="onLoadCompleteHandler-thumbnailsBar-theme02">
+		
+		set(thumbsCount-thumbnailsBar-theme02, 0);
+		
+		
+		set(thumbsCount-thumbnailsBar-theme02, get(scene.count));
+		
+		
+		
+		
+		
+		loadThumbs-thumbnailsBar-theme02();
+		
+		if(firstInit-thumbnailsBar-theme02,
+			onLoadCompleteHandlerPartThree-thumbnailsBar-theme02();
+		,
+			onLoadCompleteHandlerPartTwo-thumbnailsBar-theme02();
+		);
+	</action>
+	
+	<action name="onLoadCompleteHandlerPartTwo-thumbnailsBar-theme02">
+		set(imgCounter-thumbnailsBar-theme02, 3);
+		
+		if(arrow1Loaded-thumbnailsBar-theme02,
+			dec(imgCounter-thumbnailsBar-theme02);
+		);
+		if(arrow2Loaded-thumbnailsBar-theme02,
+			dec(imgCounter-thumbnailsBar-theme02);
+		);
+		if(thumbsCount-thumbnailsBar-theme02 == thumbnailsLoadedCounter-thumbnailsBar-theme02,
+			dec(imgCounter-thumbnailsBar-theme02);
+		);
+		
+		if(imgCounter-thumbnailsBar-theme02 LE 0,
+			stopdelayedcall(delayedCallOnLoadComplete-thumbnailsBar-theme02);
+			onLoadCompleteHandlerPartThree-thumbnailsBar-theme02();
+		,
+			delayedcall(delayedCallOnLoadComplete-thumbnailsBar-theme02, 0.2, onLoadCompleteHandlerPartTwo-thumbnailsBar-theme02());
+		);
+	</action>
+	
+	<action name="onLoadCompleteHandlerPartThree-thumbnailsBar-theme02">
+		resetMouseBehavior-thumbnailsBar-theme02();
+		highlightCurrentThumb-thumbnailsBar-theme02();
+		
+		
+		if(layer[scrollAreaContainer-thumbnailsBar-theme02].adjustToContent,
+			mul(adjustWidth-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].marginX), 2);
+			add(adjustWidth-thumbnailsBar-theme02, get(layer[thumbsScrollArea-thumbnailsBar-theme02].width));
+			mul(adjustHeight-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].marginY), 2);
+			add(adjustHeight-thumbnailsBar-theme02, get(layer[thumbsScrollArea-thumbnailsBar-theme02].height));
+			
+			
+			if(adjustWidth-thumbnailsBar-theme02 GT stagewidth,
+				set(adjustWidth-thumbnailsBar-theme02, get(stagewidth));
+				set(layer[scrollAreaContainer-thumbnailsBar-theme02].adjustToContent, false);
+			,
+				if(adjustHeight-thumbnailsBar-theme02 GT stageheight,
+					set(adjustHeight-thumbnailsBar-theme02, get(stageheight));
+					set(layer[scrollAreaContainer-thumbnailsBar-theme02].adjustToContent, false);
+				);
+			);
+			
+			setSize-thumbnailsBar-theme02(get(adjustWidth-thumbnailsBar-theme02), get(adjustHeight-thumbnailsBar-theme02));
+		);
+		
+		setupArrows-thumbnailsBar-theme02(true);
+		
+		
+		if (thumbsCounter-thumbnailsBar-theme02 LE 0,
+			set(layer[thumbnailsBar-thumbnailsBar-theme02].visible, false);
+		);
+		
+		
+		set(startResize-thumbnailsBar-theme02, true);
+		set(firstInit-thumbnailsBar-theme02, true);
+	</action>
+	
+	
+	<action name="onResizeHandler-thumbnailsBar-theme02">
+		
+		delayedcall(0.1, onResizeCallback-thumbnailsBar-theme02(false); );
+	</action>
+	
+	
+	<action name="onResizeCallback-thumbnailsBar-theme02">
+		if(startResize-thumbnailsBar-theme02,
+			setSize-thumbnailsBar-theme02(get(layer[scrollAreaContainer-thumbnailsBar-theme02].targetWidth), get(layer[scrollAreaContainer-thumbnailsBar-theme02].targetHeight));
+			setupArrows-thumbnailsBar-theme02(%1);
+			
+			
+			if (thumbsCounter-thumbnailsBar-theme02 LE 0,
+				set(layer[thumbnailsBar-thumbnailsBar-theme02].visible, false);
+			);
+		);
+	</action>
+	
+	
+		<action name="showWithThumbnailsButton-thumbnailsBar-theme02">
+			set(layer[thumbnailsBar-thumbnailsBar-theme02].visible, true);
+			onResizeCallback-thumbnailsBar-theme02(true);
+		</action>
+		
+		<action name="hideWithThumbnailsButton-thumbnailsBar-theme02">
+			set(layer[thumbnailsBar-thumbnailsBar-theme02].visible, false);
+		</action>
+	
+	
+		<action name="showWithControlsBar-thumbnailsBar-theme02">
+			
+				if (tour_displaythumbnails,
+					set(layer[thumbnailsBar-thumbnailsBar-theme02].visible, true);
+					onResizeCallback-thumbnailsBar-theme02(true);
+				,
+					set(layer[thumbnailsBar-thumbnailsBar-theme02].visible, false);
+				);
+		</action>
+		
+		<action name="hideWithControlsBar-thumbnailsBar-theme02">
+			set(layer[thumbnailsBar-thumbnailsBar-theme02].visible, false);
+		</action>
+	
+	
+	<action name="thumbnailBorderDrawInit-thumbnailsBar-theme02">
+		
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].offsetX, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderWidth));
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].offsetY, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderWidth));
+		
+		
+		mul(totalOffsetX-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderWidth), 2);
+		mul(totalOffsetY-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderWidth), 2);
+		
+		
+		if(startResize-thumbnailsBar-theme02,
+			sub(layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth, get(totalOffsetX-thumbnailsBar-theme02));
+			sub(layer[scrollAreaContainer-thumbnailsBar-theme02].itemHeight, get(totalOffsetY-thumbnailsBar-theme02));
+		);
+		
+		
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].thumbWidth, get(layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth));
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].thumbHeight, get(layer[scrollAreaContainer-thumbnailsBar-theme02].itemHeight));
+		
+		add(layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth, get(totalOffsetX-thumbnailsBar-theme02));
+		add(layer[scrollAreaContainer-thumbnailsBar-theme02].itemHeight, get(totalOffsetY-thumbnailsBar-theme02));
+	</action>
+		
+	
+	<action name="thumbnailBorderImageInit-thumbnailsBar-theme02">
+		
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].offsetX, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].offsetX));
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].offsetY, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].offsetY));
+		
+		
+		mul(totalOffsetX-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].offsetX), 2);
+		mul(totalOffsetY-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].offsetY), 2);
+		
+		
+		if(startResize-thumbnailsBar-theme02,
+			sub(layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth, get(totalOffsetX-thumbnailsBar-theme02));
+			sub(layer[scrollAreaContainer-thumbnailsBar-theme02].itemHeight, get(totalOffsetY-thumbnailsBar-theme02));
+		);
+		
+		
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].thumbWidth, get(layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth));
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].thumbHeight, get(layer[scrollAreaContainer-thumbnailsBar-theme02].itemHeight));
+		
+		add(layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth, get(totalOffsetX-thumbnailsBar-theme02));
+		add(layer[scrollAreaContainer-thumbnailsBar-theme02].itemHeight, get(totalOffsetY-thumbnailsBar-theme02));
+		
+		
+		div(layer[thumbnailBorderSource-thumbnailsBar-theme02].quarterHeight, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].height), 4);
+		
+		
+		set(cropX-thumbnailsBar-theme02, 0);
+		set(cropY-thumbnailsBar-theme02, 0);
+		set(cropW-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].width));
+		set(cropH-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource-thumbnailsBar-theme02].cropDefault, get(cropX-thumbnailsBar-theme02), '|', get(cropY-thumbnailsBar-theme02), '|', get(cropW-thumbnailsBar-theme02), '|', get(cropH-thumbnailsBar-theme02));
+
+		
+		add(cropY-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource-thumbnailsBar-theme02].cropHover, get(cropX-thumbnailsBar-theme02), '|', get(cropY-thumbnailsBar-theme02), '|', get(cropW-thumbnailsBar-theme02), '|', get(cropH-thumbnailsBar-theme02));
+		
+		
+		add(cropY-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource-thumbnailsBar-theme02].cropSelected, get(cropX-thumbnailsBar-theme02), '|', get(cropY-thumbnailsBar-theme02), '|', get(cropW-thumbnailsBar-theme02), '|', get(cropH-thumbnailsBar-theme02));
+		
+		
+		add(cropY-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource-thumbnailsBar-theme02].cropVisited, get(cropX-thumbnailsBar-theme02), '|', get(cropY-thumbnailsBar-theme02), '|', get(cropW-thumbnailsBar-theme02), '|', get(cropH-thumbnailsBar-theme02));
+		
+		
+		set(scaleX-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].offsetX));
+		set(scaleY-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].offsetY));
+		sub(scaleW-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].width), get(totalOffsetX-thumbnailsBar-theme02));
+		sub(scaleH-thumbnailsBar-theme02, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].quarterHeight), get(totalOffsetY-thumbnailsBar-theme02));
+		txtadd(layer[thumbnailBorderSource-thumbnailsBar-theme02].scale9grid, get(scaleX-thumbnailsBar-theme02), '|', get(scaleY-thumbnailsBar-theme02), '|', get(scaleW-thumbnailsBar-theme02), '|', get(scaleH-thumbnailsBar-theme02));
+	</action>
+	
+	
+	<action name="loadThumbs-thumbnailsBar-theme02">
+		
+		
+
+		loadThumbsPartTwo-thumbnailsBar-theme02();
+	</action>
+	
+	<action name="loadThumbsPartTwo-thumbnailsBar-theme02">
+		if(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+			set(imgCounter-thumbnailsBar-theme02, 1);
+		,
+			set(imgCounter-thumbnailsBar-theme02, 0);
+		);
+		
+		if(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+			if(borderLoaded-thumbnailsBar-theme02,
+				dec(imgCounter-thumbnailsBar-theme02);
+			);
+		);
+		
+		if(imgCounter-thumbnailsBar-theme02 LE 0,
+			stopdelayedcall(delayedCallOnLoadCompleteBorder-thumbnailsBar-theme02);
+			loadThumbsPartThree-thumbnailsBar-theme02();
+		,
+			delayedcall(delayedCallOnLoadCompleteBorder-thumbnailsBar-theme02, 0.2, loadThumbsPartTwo-thumbnailsBar-theme02());
+		);
+	</action>
+	
+	<action name="loadThumbsPartThree-thumbnailsBar-theme02">
+		ifnot(layer[scrollAreaContainer-thumbnailsBar-theme02].ready,
+			
+			
+			if(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+				thumbnailBorderImageInit-thumbnailsBar-theme02();
+			,
+				thumbnailBorderDrawInit-thumbnailsBar-theme02();
+			);
+			
+			
+			set(thumbsCounter-thumbnailsBar-theme02, 0);
+			
+			
+			set(i-thumbnailsBar-theme02-wait,25);
+			
+			
+				for( set(i-thumbnailsBar-theme02, 0), i-thumbnailsBar-theme02 LT scene.count, inc(i-thumbnailsBar-theme02),
+					if(i-thumbnailsBar-theme02-wait == i-thumbnailsBar-theme02,
+						add(i-thumbnailsBar-theme02-wait,25);
+						wait(0);
+					);
+					createThumb-thumbnailsBar-theme02(get(scene[get(i-thumbnailsBar-theme02)].name), get(scene[get(i-thumbnailsBar-theme02)].thumburl), get(i-thumbnailsBar-theme02), get(scene[get(i-thumbnailsBar-theme02)].titleid));
+					inc(thumbsCounter-thumbnailsBar-theme02);
+				);
+			
+			
+			
+			
+			
+			
+			set(layer[scrollAreaContainer-thumbnailsBar-theme02].currentThumbsCount, get(thumbsCounter-thumbnailsBar-theme02));
+			
+			
+			setSize-thumbnailsBar-theme02(get(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].width), get(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].height));
+			
+			
+			set(layer[scrollAreaContainer-thumbnailsBar-theme02].visible, true);
+			
+			
+				if (tour_displaycontrols,
+					showWithControlsBar-thumbnailsBar-theme02();
+				,
+					hideWithControlsBar-thumbnailsBar-theme02();
+				);
+			
+			
+			set(layer[scrollAreaContainer-thumbnailsBar-theme02].ready, true);
+		);
+	</action>
+	
+	
+	<action name="setSize-thumbnailsBar-theme02">
+		
+		
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].targetWidth, %1);
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].targetHeight, %2);
+		
+		
+		set(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].width, %1);
+		set(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].height, %2);
+		layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].updatepos();
+		
+		
+		mul(totalMarginX-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].x), 2);
+		mul(totalMarginY-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].y), 2);
+		
+			add(totalPluginHeight-thumbnailsBar-theme02, get(totalMarginY-thumbnailsBar-theme02), get(layer[scrollAreaContainer-thumbnailsBar-theme02].itemHeight));
+			
+			
+			
+			if(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].pixelheight LT totalPluginHeight-thumbnailsBar-theme02,
+				set(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].height, get(totalPluginHeight-thumbnailsBar-theme02));
+			);
+		
+		layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].updatepos();
+		
+		
+		sub(containerWidth-thumbnailsBar-theme02, get(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].pixelwidth), get(totalMarginX-thumbnailsBar-theme02));
+		sub(containerHeight-thumbnailsBar-theme02, get(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].pixelheight), get(totalMarginY-thumbnailsBar-theme02));
+
+		
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].width, get(containerWidth-thumbnailsBar-theme02));
+		set(layer[scrollAreaContainer-thumbnailsBar-theme02].height, get(containerHeight-thumbnailsBar-theme02));
+		
+		set(scrollAreaSize-thumbnailsBar-theme02, 0);
+		
+		
+		mul(totalThumbsSpacer-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].currentThumbsCount), get(layer[scrollAreaContainer-thumbnailsBar-theme02].thumbSpacer));
+		sub(totalThumbsSpacer-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].thumbSpacer));
+		
+		set(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].visible, true);
+		
+
+			mul(scrollAreaSize-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth), get(layer[scrollAreaContainer-thumbnailsBar-theme02].currentThumbsCount));
+			add(scrollAreaSize-thumbnailsBar-theme02, get(totalThumbsSpacer-thumbnailsBar-theme02));
+			
+			set(layer[thumbsScrollArea-thumbnailsBar-theme02].width, get(scrollAreaSize-thumbnailsBar-theme02));
+			set(layer[thumbsScrollArea-thumbnailsBar-theme02].height, get(layer[scrollAreaContainer-thumbnailsBar-theme02].itemHeight));
+			
+			
+			if(layer[scrollAreaContainer-thumbnailsBar-theme02].width LT layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth,
+				set(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].visible, false);
+			,
+				verifyThumbnailsBarVisibility-thumbnailsBar-theme02();
+			);
+			
+		
+		
+		if(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].width LT 0,
+			set(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].visible, false);
+		);
+		
+	</action>
+	
+	
+	<action name="verifyThumbnailsBarVisibility-thumbnailsBar-theme02">
+		if(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].visible,
+			set(boolValue-thumbnailsBar-theme02, false);
+			
+			if (tour_displaythumbnails,
+				if (tour_displaycontrols,
+					set(boolValue-thumbnailsBar-theme02, true);
+				);
+			);
+			
+			set(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].visible, get(boolValue-thumbnailsBar-theme02));
+		);
+	</action>
+	
+	
+	<action name="createThumb-thumbnailsBar-theme02">
+
+			add(offsetFactor-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth), get(layer[scrollAreaContainer-thumbnailsBar-theme02].thumbSpacer));
+	
+			mul(thumbIncPos-thumbnailsBar-theme02, %3, get(offsetFactor-thumbnailsBar-theme02));
+			
+			
+			if(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+				add(thumbIncPos-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].offsetX));
+			);
+			
+		
+		mul(negativeOffsetX-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].offsetX), -1);
+		mul(negativeOffsetY-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].offsetY), -1);
+		
+		set(thumbName, 'thumb_');
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '-thumbnailsBar-theme02');
+		addlayer(get(thumbName));
+		
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '-thumbnailsBar-theme02');
+		addlayer(get(thumbBorderName));
+		
+		
+		ifnot(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+			set(layer[get(thumbBorderName)].type, container);
+			set(layer[get(thumbBorderName)].parent, thumbsScrollArea-thumbnailsBar-theme02);
+		);
+		
+		
+		set(layer[get(thumbName)].onloaded, loadedImages-thumbnailsBar-theme02("thumbnail"););
+		set(layer[get(thumbName)].url, %2);
+		set(layer[get(thumbName)].keep, true);
+		set(layer[get(thumbName)].width, get(layer[scrollAreaContainer-thumbnailsBar-theme02].thumbWidth));
+		set(layer[get(thumbName)].height, get(layer[scrollAreaContainer-thumbnailsBar-theme02].thumbHeight));
+		set(layer[get(thumbName)].align, topleft);
+		
+		
+			set(layer[get(thumbName)].y, get(layer[scrollAreaContainer-thumbnailsBar-theme02].offsetY));
+		
+			if(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+				set(layer[get(thumbName)].parent, thumbsScrollArea-thumbnailsBar-theme02);
+				set(layer[get(thumbName)].x, get(thumbIncPos-thumbnailsBar-theme02));
+			,
+				set(layer[get(thumbName)].parent, get(thumbBorderName));
+				set(layer[get(thumbName)].x, get(layer[scrollAreaContainer-thumbnailsBar-theme02].offsetX));
+				set(layer[get(thumbName)].onclick, mainloadscene(%1); resetMouseBehavior-thumbnailsBar-theme02(); highlightThumb-thumbnailsBar-theme02(%1));
+			);	
+			
+		
+		
+		set(layer[get(thumbBorderName)].keep, true);
+		set(layer[get(thumbBorderName)].width, get(layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth));
+		set(layer[get(thumbBorderName)].height, get(layer[scrollAreaContainer-thumbnailsBar-theme02].itemHeight));
+		set(layer[get(thumbBorderName)].align, topleft);
+		
+		if(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+			set(layer[get(thumbBorderName)].url, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].url));
+			set(layer[get(thumbBorderName)].scale9grid, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].scale9grid));
+			set(layer[get(thumbBorderName)].parent, get(thumbName));
+			set(layer[get(thumbBorderName)].x, get(negativeOffsetX-thumbnailsBar-theme02));
+			set(layer[get(thumbBorderName)].y, get(negativeOffsetY-thumbnailsBar-theme02));
+			set(layer[get(thumbBorderName)].onclick, mainloadscene(%1); resetMouseBehavior-thumbnailsBar-theme02(); highlightThumb-thumbnailsBar-theme02(%1));
+		,
+			
+				set(layer[get(thumbBorderName)].x, get(thumbIncPos-thumbnailsBar-theme02)); 
+				
+		);
+		
+		
+		setupMouseBehavior-thumbnailsBar-theme02(%1, %4);
+		
+	</action>
+	
+	
+	<action name="removeThumb-thumbnailsBar-theme02">
+		set(thumbName, 'thumb_');
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '-thumbnailsBar-theme02');
+		removelayer(get(thumbName));
+		
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '-thumbnailsBar-theme02');
+		removelayer(get(thumbBorderName));
+	</action>
+	
+	
+	
+	<action name="setupArrows-thumbnailsBar-theme02">
+		
+		if(layer[scrollAreaContainer-thumbnailsBar-theme02].adjustToContent,
+			hideArrows-thumbnailsBar-theme02();
+		,
+			ifnot(device.touchdevice,
+				
+					if(layer[scrollAreaContainer-thumbnailsBar-theme02].width LT layer[thumbsScrollArea-thumbnailsBar-theme02].width,
+				
+					showArrows-thumbnailsBar-theme02();
+				,
+					hideArrows-thumbnailsBar-theme02();
+				);
+			,
+				hideArrows-thumbnailsBar-theme02();
+			);
+		);
+		
+		
+		if(%1,
+			scrollToCurrentThumb-thumbnailsBar-theme02();
+		);
+		
+		
+			
+			if(layer[scrollAreaContainer-thumbnailsBar-theme02].width LT layer[scrollAreaContainer-thumbnailsBar-theme02].itemWidth,
+				set(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].visible, false);
+			);
+	</action>
+	
+	
+	<action name="showArrows-thumbnailsBar-theme02">
+		
+		
+		
+		
+		set(layer[scrollPrevArrow-thumbnailsBar-theme02].visible, true);
+		set(layer[scrollNextArrow-thumbnailsBar-theme02].visible, true);
+		
+		
+		
+			
+			add(totalArrowSize-thumbnailsBar-theme02, get(layer[scrollPrevArrow-thumbnailsBar-theme02].width), get(layer[scrollNextArrow-thumbnailsBar-theme02].width));
+		
+			
+			sub(scrollAreaContainerSize-thumbnailsBar-theme02, get(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].pixelwidth), get(totalArrowSize-thumbnailsBar-theme02));
+		
+			set(layer[scrollAreaContainer-thumbnailsBar-theme02].width, get(scrollAreaContainerSize-thumbnailsBar-theme02));
+			
+			set(layer[scrollAreaContainer-thumbnailsBar-theme02].x, get(layer[scrollPrevArrow-thumbnailsBar-theme02].width));
+			
+		
+		
+		set(layer[scrollPrevArrow-thumbnailsBar-theme02].onhover, scrollPrev-thumbnailsBar-theme02(););
+		set(layer[scrollNextArrow-thumbnailsBar-theme02].onhover, scrollNext-thumbnailsBar-theme02(););
+		
+		set(layer[scrollPrevArrow-thumbnailsBar-theme02].onclick, scrollPrev-thumbnailsBar-theme02(get(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeedAcceleration)););
+		set(layer[scrollNextArrow-thumbnailsBar-theme02].onclick, scrollNext-thumbnailsBar-theme02(get(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeedAcceleration)););
+		
+		
+		
+		
+		
+		set(layer[scrollPrevArrow-thumbnailsBar-theme02].onout, set(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeed, get(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeedInit)););
+		set(layer[scrollNextArrow-thumbnailsBar-theme02].onout, set(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeed, get(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeedInit)););
+		
+	</action>
+	
+	
+	
+	
+	<action name="hideArrows-thumbnailsBar-theme02">
+		
+		set(layer[scrollPrevArrow-thumbnailsBar-theme02].visible, false);
+		set(layer[scrollNextArrow-thumbnailsBar-theme02].visible, false);
+		
+		
+
+			mul(totalMargin-thumbnailsBar-theme02, get(layer[scrollAreaContainer-thumbnailsBar-theme02].marginX), 2);
+			
+			sub(scrollAreaContainerSize-thumbnailsBar-theme02, get(layer[get(layer[scrollAreaContainer-thumbnailsBar-theme02].parent)].pixelwidth), get(totalMargin-thumbnailsBar-theme02));
+
+			set(layer[scrollAreaContainer-thumbnailsBar-theme02].width, get(scrollAreaContainerSize-thumbnailsBar-theme02));
+			set(layer[scrollAreaContainer-thumbnailsBar-theme02].x, get(layer[scrollAreaContainer-thumbnailsBar-theme02].marginX));
+			 
+			
+	</action>
+	
+	
+	<action name="scrollPrev-thumbnailsBar-theme02">
+		
+		
+		if(%1,
+			inc(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeed, %1);
+		);
+		
+		layer[thumbsScrollArea-thumbnailsBar-theme02].stopscrolling();
+		
+		set(scrollLimit-thumbnailsBar-theme02, 0);
+		
+		
+			
+				sub(scrollLimit-thumbnailsBar-theme02, get(layer[thumbsScrollArea-thumbnailsBar-theme02].width), get(layer[scrollAreaContainer-thumbnailsBar-theme02].width));
+				div(scrollLimit-thumbnailsBar-theme02, 2);
+			
+			add(layer[thumbsScrollArea-thumbnailsBar-theme02].x, get(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeed));
+			if(layer[thumbsScrollArea-thumbnailsBar-theme02].x GE scrollLimit-thumbnailsBar-theme02,
+				set(layer[thumbsScrollArea-thumbnailsBar-theme02].x, get(scrollLimit-thumbnailsBar-theme02));
+			);
+		
+		if(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeed LT layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeedMax,
+			inc(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeed);
+		);
+		
+	</action>
+	
+	
+	<action name="scrollNext-thumbnailsBar-theme02">
+		
+		
+		if(%1,
+			inc(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeed, %1);
+		);
+		
+		layer[thumbsScrollArea-thumbnailsBar-theme02].stopscrolling();
+		
+			
+			sub(scrollLimit-thumbnailsBar-theme02, get(layer[thumbsScrollArea-thumbnailsBar-theme02].width), get(layer[scrollAreaContainer-thumbnailsBar-theme02].width));
+			
+				div(scrollLimit-thumbnailsBar-theme02, 2);
+			mul(scrollLimit-thumbnailsBar-theme02, -1);
+			
+			sub(layer[thumbsScrollArea-thumbnailsBar-theme02].x, get(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeed));
+			if(layer[thumbsScrollArea-thumbnailsBar-theme02].x LE scrollLimit-thumbnailsBar-theme02,
+				set(layer[thumbsScrollArea-thumbnailsBar-theme02].x, get(scrollLimit-thumbnailsBar-theme02));
+			);
+		
+		if(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeed LT layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeedMax,
+			inc(layer[scrollAreaContainer-thumbnailsBar-theme02].scrollSpeed);
+		);
+		
+	</action>
+	
+	
+	<action name="resetMouseBehavior-thumbnailsBar-theme02">
+	
+		
+		
+		
+		set(j-thumbnailsBar-theme02-wait,25);
+		
+			for( set(j-thumbnailsBar-theme02, 0), j-thumbnailsBar-theme02 LT scene.count, inc(j-thumbnailsBar-theme02),
+				if(j-thumbnailsBar-theme02-wait == j-thumbnailsBar-theme02,
+					add(j-thumbnailsBar-theme02-wait,25);
+					wait(0);
+				);
+				set(thumbBorderName, 'thumbBorder_');
+				txtadd(thumbBorderName, get(scene[get(j-thumbnailsBar-theme02)].name));
+				txtadd(thumbBorderName, '-thumbnailsBar-theme02');
+				
+				setupMouseBehavior-thumbnailsBar-theme02(get(scene[get(j-thumbnailsBar-theme02)].name), get(scene[get(j-thumbnailsBar-theme02)].titleid));
+			);
+		
+	</action>
+	
+	
+	<action name="setupMouseBehavior-thumbnailsBar-theme02">
+
+		set(thumbName, 'thumb_');
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '-thumbnailsBar-theme02');
+		
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '-thumbnailsBar-theme02');
+		
+		if(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+			set(layer[get(thumbBorderName)].crop, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].cropDefault));
+			set(layer[get(thumbBorderName)].onovercrop, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].cropHover));
+			set(layer[get(thumbBorderName)].ondowncrop, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].cropHover));
+			set(layer[get(thumbBorderName)].tooltip, %2);
+				set(layer[get(thumbBorderName)].onhover, showTooltip(get(align), tooltipStyle-thumbnailsBar-theme02));
+				set(layer[get(thumbBorderName)].onout, hideTooltip());
+		,
+			set(layer[get(thumbBorderName)].bgcolor, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderColorDefault));
+			set(layer[get(thumbBorderName)].bgalpha, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderAlphaDefault));
+				set(layer[get(thumbName)].tooltip, %2);
+				set(layer[get(thumbName)].onhover, showTooltip(get(align), tooltipStyle-thumbnailsBar-theme02));
+			
+			set(layer[get(thumbName)].onover, 
+				set(layer[get(parent)].bgcolor, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderColorHover));
+				set(layer[get(parent)].bgalpha, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderAlphaHover));
+			);
+			
+			set(layer[get(thumbName)].onout, 
+				set(layer[get(parent)].bgcolor, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderColorDefault));
+				set(layer[get(parent)].bgalpha, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderAlphaDefault));
+				hideTooltip();
+			);
+		);
+	
+	</action>
+	
+	
+	<action name="highlightCurrentThumb-thumbnailsBar-theme02">
+			highlightThumb-thumbnailsBar-theme02(get(xml.scene));
+	</action>
+	
+	
+	<action name="highlightThumb-thumbnailsBar-theme02">
+	
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '-thumbnailsBar-theme02');
+		
+		if(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+			set(layer[get(thumbBorderName)].crop, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].cropSelected));
+			set(layer[get(thumbBorderName)].onovercrop, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].cropSelected));
+			set(layer[get(thumbBorderName)].ondowncrop, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].cropSelected));
+		,
+			set(thumbName, 'thumb_');
+			txtadd(thumbName, %1);
+			txtadd(thumbName, '-thumbnailsBar-theme02');
+			
+			set(layer[get(thumbBorderName)].bgcolor, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderColorSelected));
+			set(layer[get(thumbBorderName)].bgalpha, get(layer[thumbnailBorderSource-thumbnailsBar-theme02].borderAlphaSelected));
+			
+			set(layer[get(thumbName)].onover, "");
+			set(layer[get(thumbName)].onout, hideTooltip(););
+		);
+
+		scrollToThumb-thumbnailsBar-theme02(%1);
+	</action>
+	
+	
+	<action name="scrollToCurrentThumb-thumbnailsBar-theme02">
+			scrollToThumb-thumbnailsBar-theme02(get(xml.scene));
+	</action>
+	
+	
+	<action name="scrollToThumb-thumbnailsBar-theme02">
+		
+		set(thumbName, 'thumb_');
+		set(thumbBorderName, 'thumbBorder_');
+		
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '-thumbnailsBar-theme02');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '-thumbnailsBar-theme02');
+
+			set(posX-thumbnailsBar-theme02, 0);
+			if(layer[thumbnailBorderSource-thumbnailsBar-theme02].url,
+				div(halfThumbWidth-thumbnailsBar-theme02, get(layer[get(thumbName)].width), 2);
+				ifnot(layer[scrollAreaContainer-thumbnailsBar-theme02].adjustToContent,
+					add(posX-thumbnailsBar-theme02, get(layer[get(thumbName)].x), get(halfThumbWidth-thumbnailsBar-theme02));
+				);
+				if(layer[thumbsScrollArea-thumbnailsBar-theme02].scrolltocenter,
+					layer[thumbsScrollArea-thumbnailsBar-theme02].scrolltocenter(get(posX-thumbnailsBar-theme02), 0);
+				);
+			,
+				div(halfThumbWidth-thumbnailsBar-theme02, get(layer[get(thumbBorderName)].width), 2);
+				ifnot(layer[scrollAreaContainer-thumbnailsBar-theme02].adjustToContent,
+					add(posX-thumbnailsBar-theme02, get(layer[get(thumbBorderName)].x), get(halfThumbWidth-thumbnailsBar-theme02));
+				);
+				if(layer[thumbsScrollArea-thumbnailsBar-theme02].scrolltocenter,
+					layer[thumbsScrollArea-thumbnailsBar-theme02].scrolltocenter(get(posX-thumbnailsBar-theme02), 0);
+				);
+			);
+		
+	</action>
+
+
+
+
+  <!-- *********** -->
+  <!-- Description -->
+  <!-- *********** -->
+
+
+<ptplugin name="description" canStart="false" newPano="false" openatstart="false" startMethod="showPanoDescription-description" engine="kolorArea">
+	<settings>
+		<option name="position" value="top" type="string" />
+		<option name="start_position" value="left" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="86" type="int" />
+		<option name="background_color" value="ffffff" type="string" />
+		<option name="background_alpha" value="0.698039215686274" type="float" />
+		<option name="topleft_radius" value="9" type="int" />
+		<option name="topright_radius" value="9" type="int" />
+		<option name="bottomleft_radius" value="9" type="int" />
+		<option name="bottomright_radius" value="9" type="int" />
+		<option name="area_border_width" value="0" type="int" />
+		<option name="area_border_color" value="ffffff" type="string" />
+		<option name="padding" value="15" type="int" />
+		<option name="display_title" value="false" type="bool" />
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.500007629510948" type="float" />
+		<option name="area_width" value="20" type="int" />
+		<option name="area_height" value="80" type="int" />
+		<option name="area_width_unit" value="percent" type="string" />
+		<option name="area_height_unit" value="percent" type="string" />
+		<option name="animation" value="false" type="bool" />
+		<option name="animation_duration" value="500" type="int" />
+		<option name="refresh_content" value="true" type="bool" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback-description')" type="string" />
+		<option name="close_on_click" value="true" type="bool" />
+		<option name="close_onclick_callback" value="invokeKrFunction('closeKolorAreaCallbackClick-description')" type="string" />
+		<option name="zorder" value="3" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+</ptplugin>
+
+<action name="kolorAreaJsReady-description">
+	set(ptplugin[description].jsready, true);
+</action>
+
+<action name="updateTitle-description">
+	js(invokePluginFunction(description, changeTitle, get(scene[get(xml.scene)].titleid)));
+</action>
+
+<action name="openKolorArea-description">
+	set(ptplugin[description].isOpen, true);
+	js(showKolorArea(description, get(ptplugin[description].descID)));
+</action>
+
+<action name="closeKolorArea-description">
+	set(ptplugin[description].isOpen, false);
+	js(invokePluginFunction(description, closeKolorArea));
+</action>
+
+<action name="toggleKolorArea-description">
+	if(ptplugin[description].isOpen,
+		closeKolorArea-description();
+	,
+		openKolorArea-description();
+	);
+</action>
+
+<action name="closeKolorAreaCallback-description">
+	set(ptplugin[description].isOpen, false);
+	if(tour_displayinfo,hideTourInfo();
+	);
+</action>
+
+<action name="closeKolorAreaCallbackClick-description">
+	if(tour_displayinfo,hideTourInfo();
+	);
+</action>
+
+
+<action name="showKolorArea-description">
+	ifnot(ptplugin[description].startMethod == "",
+		delayedcall(0,get(ptplugin[description].startMethod));
+	,
+		js(invokePluginFunction(description, showKolorArea, %1));
+	);
+</action>
+	
+<action name="hideKolorArea-description">
+	js(invokePluginFunction(description, hideKolorArea, %1));
+</action>
+
+<action name="openDescription-description">
+	openKolorArea-description();
+</action>
+
+<action name="openSpotDescription-description">
+	set(ptplugin[description].descID, %1);
+	openKolorArea-description();
+</action>
+
+<action name="closeDescription-description">
+	set(ptplugin[description].currentGroup, false);
+	closeKolorArea-description();
+</action> 
+
+
+
+<action name="showPanoDescription-description">
+	if(ptplugin[description].canStart,
+		set(ptplugin[description].descID, get(scene[get(xml.scene)].descriptionid));
+		if(ptplugin[description].descID == null,
+			set(ptplugin[description].descID, "");
+		);
+		if(ptplugin[description].descID != "",
+			openDescription-description();
+		,
+			hideKolorArea-description(false);
+		);
+		set(ptplugin[description].startMethod, "");
+	);
+</action>
+
+<action name="refreshPanoDescription-description">
+	set(ptplugin[description].descID, get(scene[get(xml.scene)].descriptionid));
+	if(ptplugin[description].descID == null,
+		set(ptplugin[description].descID, "");
+	);
+	if(ptplugin[description].descID != "",
+		if(ptplugin[description].isOpen,
+			js(invokePluginFunction(description, updateKolorArea, get(ptplugin[description].descID)));
+		);
+	,
+		closeDescription-description();
+	);
+</action>
+
+<action name="onNewPano-description">
+	if(ptplugin[description].newPano,
+		if(ptplugin[description].startMethod == "",
+			if(ptplugin[description].isOpen,
+				refreshPanoDescription-description();
+			,
+				if(tour_displayinfo,
+				showPanoDescription-description();
+				,
+				refreshPanoDescription-description();
+				);
+			);
+		);
+	);
+	set(ptplugin[description].newPano, true);
+</action>
+
+<events name="kolorAreaEvents-description" 
+	keep="true"
+	onTourStart="set(ptplugin[description].canStart, true);if(ptplugin[description].openatstart,showTourInfo();,if(tour_displayinfo,showTourInfo();););"
+	onshowtourinfo="showPanoDescription-description();"
+	onhidetourinfo="closeDescription-description();"
+	onnewpano="onNewPano-description();"
+/>
+	
+	<!-- ************ -->
+	<!-- PanotourMaps -->
+	<!-- ************ -->
+	
+		<ptplugin name="panotourmaps" lat="51.9207801819" lng="7.96783590317" zoom="18" maptypelayer="road" openatstart="false" state="false" bgcolor="f2f2f2" zorder="4" engine="KolorMap">
+	
+		<radar visible="true" radius="35" linktozoom="false" quality="8" linecolor="ff3636" lineopacity="0.500007629510948" linewidth="2" fillcolor="ff9430" fillopacity="0.500007629510948" />
+		
+		
+		<controls zoom="true" pan="true" scale="true" maptype="true" overview="false">
+			<ui draggable="true" scrollable="true" dblclick="true" />
+		</controls>
+		
+		<markerSelected name="" heading="" fov="" />
+		
+		
+		
+			<!-- PanotourMaps markers counter : 2 -->
+				<marker name="spotmap28" lat="51.9207763672" lng="7.96783351898" heading="75" draggable="false" desc="spotmap28_tooltip" desctype="info" onhover="true" isscene="true" scene="pano9" jsclick="spotmap28ActionSpotMap">
+					<markericon url="spots/hotspot_user_defaultmap0.png" iconwidth="32" iconheight="32" shadow="false" iconanchor="center" />
+				</marker>
+				<!--<marker name="spotmap31" lat="51.9214248657" lng="7.97218942642" heading="75" draggable="false" desc="spotmap31_tooltip" desctype="info" onhover="false" isscene="true" scene="pano9" jsclick="spotmap31ActionSpotMap">
+					<markericon url="spots/hotspot_user_defaultmap0.png" iconwidth="32" iconheight="32" shadow="false" iconanchor="center" />
+				</marker>-->
+
+		
+		
+		
+	</ptplugin>
+	
+	<action name="kolorMapJsReady-panotourmaps">
+		set(ptplugin[panotourmaps].jsready, true);
+	</action>
+	
+	<ptplugin name="panotourmapsArea" engine="kolorArea">
+	<settings>
+		<option name="position" value="top" type="string" />
+		<option name="start_position" value="left" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="background_color" value="f2f2f2" type="string" />
+		<option name="background_alpha" value="1" type="float" />
+		<option name="padding" value="15" type="int" />
+		<option name="topleft_radius" value="0" type="int" />
+		<option name="topright_radius" value="0" type="int" />
+		<option name="bottomleft_radius" value="0" type="int" />
+		<option name="bottomright_radius" value="0" type="int" />
+		<option name="area_border_width" value="0" type="int" />
+		<option name="area_border_color" value="f2f2f2" type="string" />
+		<option name="display_title" value="true" type="bool" />
+		<option name="title" value="panotourmapsmap_title" type="string" />
+		<option name="title_font" value="Verdana" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_decoration" value="normal" type="string" />
+		<option name="title_color" value="000000" type="string" />
+		<option name="close_displayed" value="false" type="bool" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.500007629510948" type="float" />
+		<option name="area_width" value="100" type="int" />
+		<option name="area_height" value="30" type="int" />
+		<option name="area_width_unit" value="percent" type="string" />
+		<option name="area_height_unit" value="percent" type="string" />
+		<option name="animation" value="false" type="bool" />
+		<option name="animation_duration" value="500" type="int" />
+		<option name="close_on_click" value="false" type="bool" />
+		<option name="refresh_content" value="false" type="bool" />
+		<option name="open_callback" value="addKolorMap('panotourmaps', [['openlayers','']], 'panotourmapsArea-mapDIV');" type="string" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback-panotourmapsArea')" type="string" />
+		<option name="zorder" value="4" type="int" />
+	</settings>
+	</ptplugin>
+	
+	<action name="kolorAreaJsReady-panotourmapsArea">
+		set(ptplugin[panotourmapsArea].jsready, true);
+	</action>
+	
+	<action name="openKolorArea-panotourmapsArea">
+		ifnot(ptplugin[panotourmapsArea].isOpen,
+			set(ptplugin[panotourmapsArea].isOpen, true);
+			set(ptplugin[panotourmapsArea].visible, true);
+			set(ptplugin[panotourmapsArea].doNotDeleteMe, false);
+			pauseautorotation(forceplugin);
+			js(showKolorArea(panotourmapsArea, &lt;div id="panotourmapsArea-mapDIV"&gt;&lt;/div&gt;));
+			js(invokePluginFunction(panotourmaps, forceResizeMapLayer, panotourmapsArea-mapDIV));
+			events.dispatch(onremovedisplayedobject);
+		);
+	</action>
+	
+	<action name="closeKolorArea-panotourmapsArea">
+			resumeautorotation(forceplugin);
+			js(invokePluginFunction(panotourmapsArea, closeKolorArea));
+			set(ptplugin[panotourmapsArea].isOpen, false);
+	</action>
+	
+	<action name="toggleKolorArea-panotourmapsArea">
+		if(ptplugin[panotourmapsArea].isOpen,
+			closeKolorArea-panotourmapsArea();
+		,
+			openKolorArea-panotourmapsArea();
+		);
+	</action>
+	
+	<action name="closeKolorAreaCallback-panotourmapsArea">
+		set(ptplugin[panotourmapsArea].isOpen, false);hideMap();
+	</action>
+	
+	<action name="showKolorArea-panotourmapsArea">
+		set(ptplugin[panotourmapsArea].visible, true);
+		set(ptplugin[panotourmapsArea].doNotDeleteMe, false);
+		pauseautorotation(forceplugin);
+		js(invokePluginFunction(panotourmapsArea, showKolorArea, %1));
+		js(invokePluginFunction(panotourmaps, forceResizeMapLayer, panotourmapsArea-mapDIV));
+		events.dispatch(onremovedisplayedobject);
+	</action> 
+		
+	<action name="hideKolorArea-panotourmapsArea">
+		resumeautorotation(forceplugin);
+		set(ptplugin[panotourmapsArea].visible, false);
+		js(invokePluginFunction(panotourmapsArea, hideKolorArea, %1));
+	</action>
+	
+	
+	<action name="updateDefaultMarkerValues-panotourmapsArea">
+		if( ptplugin[panotourmaps].markerSelected.name != "",
+			set(ptplugin[panotourmaps].markerSelected.heading, get(view.hlookat));
+			set(ptplugin[panotourmaps].markerSelected.fov, get(view.fov));
+		);
+	</action>
+	
+	<events name="kolorAreaEvents-panotourmapsArea" 
+		keep="true"
+		onhidetourmap="panotourmapsClosetourmap();" 
+		onshowtourmap="if(tour_displaymap,panotourmapsOpentourmap(););" 
+		
+		onTourStart="updateDefaultMarkerValues-panotourmapsArea();"
+	/>
+	
+	
+		<!-- PanotourMaps markers counter : 2 -->
+				<action name="spotmap28ActionSpotMap">
+          if (xml.scene != pano9,
+            mainloadscene(pano9);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+				<action name="spotmap31ActionSpotMap">
+          if (xml.scene != pano9,
+            mainloadscene(pano9);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    </action>
+	
+	
+	
+	
+	
+	<!-- Begin PanotourMaps events and actions -->
+	<events name="panotourmapsEvents" 
+	onxmlcomplete="ifnot(panotourmapsMapLoaded,set(tour_displaymap,false););" 
+	onnewpano="panotourmapsActivateDefaultMarker();" 
+	onremovepano="panotourmapsUnselectMarker();" 
+	onviewchanged="panotourmapsOnviewchange()" 
+	keep="true" />
+	
+	
+	<krpano panotourmapsMarkerDefaultSet="false" />
+	<krpano panotourmapsMapLoaded="false" />
+	
+	
+	
+	<action name="panotourmapsClosetourmap">
+		if(ptplugin[panotourmapsArea].isOpen,
+			closeKolorArea-panotourmapsArea();
+		);
+	</action>
+	
+	<action name="panotourmapsHidetourmap">
+		ifnot(ptplugin[panotourmapsArea].isOpen,
+			panotourmapsClosetourmap();
+		,
+			hideKolorArea-panotourmapsArea(false);
+		);
+	</action>
+	
+	<action name="panotourmapsOpentourmap">
+		ifnot(ptplugin[panotourmapsArea].isOpen,
+			openKolorArea-panotourmapsArea();
+		);
+	</action>
+	
+	<action name="panotourmapsShowtourmap">
+		ifnot(ptplugin[panotourmapsArea].isOpen,
+			panotourmapsOpentourmap();
+		,
+			showKolorArea-panotourmapsArea(false);
+		);
+	</action>
+	
+	<action name="panotourmapsChangescene">
+		if(xml.scene != '%1',mainloadscene(%1);panotourmapsGoMarker(%2));
+	</action>
+	
+	<action name="panotourmapsOnviewchange">
+		if ( panotourmapsMapLoaded == true,
+			ifnot(ptplugin[panotourmaps].markerSelected.name == "",
+				js(invokePluginFunction(panotourmaps, changeDirection, get(view.hlookat), get(view.fov)));
+			);
+			updateDefaultMarkerValues-panotourmapsArea();
+		);
+	</action>
+	
+	<action name="panotourmapsGoMarker">
+		if ( panotourmapsMapLoaded == true,
+			
+			set(ptplugin[panotourmaps].markerSelected.name, %1);
+			set(ptplugin[panotourmaps].markerSelected.heading, get(view.hlookat));
+			set(ptplugin[panotourmaps].markerSelected.fov, get(view.fov));
+			js(invokePluginFunction(panotourmaps, changeCurrentMarker, %1, get(view.hlookat), get(view.fov)));
+			
+			if( panotourmapsMarkerDefaultSet == false,
+				js(setMapDefaultMarker(panotourmaps, %1, get(view.hlookat), get(view.fov)));
+				set(panotourmapsMarkerDefaultSet,true);
+			);
+		);
+	</action>
+	
+	<action name="panotourmapsUnselectMarker">
+		set(ptplugin[panotourmaps].markerSelected.name, "");
+		js(invokePluginFunction(panotourmaps, unselectCurrentMarker));
+		
+		js(setMapDefaultMarker(panotourmaps, null, null, null));
+	</action>
+	
+	<action name="panotourmapsActivateDefaultMarker">
+		set(panotourmapsMapLoaded, true);
+		
+		set(panotourmapsMapSpotFound, false);
+		set(defaultmarkerinc-wait,50);
+		for(set(defaultmarkerinc,0), defaultmarkerinc LT ptplugin[panotourmaps].marker.count , inc(defaultmarkerinc),
+			if(defaultmarkerinc-wait == defaultmarkerinc,
+				add(defaultmarkerinc-wait,50);
+				wait(0);
+			);
+			if(ptplugin[panotourmaps].marker[get(defaultmarkerinc)].isscene == true,
+				if(panotourmapsMapSpotFound == false,
+					if(ptplugin[panotourmaps].marker[get(defaultmarkerinc)].scene == xml.scene,
+						ifnot(ptplugin[panotourmaps].marker[get(defaultmarkerinc)].name == ptplugin[panotourmaps].markerSelected.name,
+							panotourmapsGoMarker(get(ptplugin[panotourmaps].marker[get(defaultmarkerinc)].name));
+						);
+						set(panotourmapsMapSpotFound, true);
+					);
+				);
+			);
+		);
+		
+		if(panotourmapsMapSpotFound == false,
+			panotourmapsUnselectMarker();
+		);
+	</action>
+	
+  <!-- ********************** -->
+  <!-- Previous / Next Strips -->
+  <!-- ********************** -->
+
+  <style name="prevnexttheme2btn_alpha_style" 
+    alpha="0.0" onover="set(alpha, 1);" onout="set(alpha, 0.0);"
+    devices="desktop"
+  />
+  <style name="prevnexttheme2btn_alpha_style" 
+    alpha="0.5"
+    devices="tablet|mobile"
+  />
+  <layer name="prevnexttheme2btn_prev_pano" keep="true" align="left"
+         height="102%"
+         width="5%"
+         type="container"
+         bgcapture="true"
+         bgalpha="0.2"
+         bgcolor="0xdedede"
+         zorder="5"
+         onclick="loadPreviousScene();"
+         style="prevnexttheme2btn_alpha_style"
+         visible="false">
+    <layer name="prevnexttheme2prevPanoramaArrow" keep="true" align="center"
+         url="%FIRSTXML%/graphics/prevnextstrips/btn_scroll_left.png"
+         alpha="1"
+         zorder="0"
+         tooltip="prevnexttheme2prevSceneTip"
+         onhover="showTooltip(left,prevnexttheme2TooltipStyle,left);"
+         onout="hideTooltip();"
+         onclick="loadPreviousScene();"
+    />
+  </layer>
+
+  <layer name="prevnexttheme2btn_next_pano" keep="true" align="right"
+         height="102%"
+         width="5%"
+         type="container"
+         bgcapture="true"
+         bgalpha="0.2"
+         bgcolor="0xdedede"
+         zorder="5"
+         onclick="loadNextScene();"
+         style="prevnexttheme2btn_alpha_style"
+         visible="false">
+    <layer name="prevnexttheme2nextPanoramaArrow" keep="true" align="center"
+         url="%FIRSTXML%/graphics/prevnextstrips/btn_scroll_right.png"
+         alpha="1"
+         zorder="0"
+         tooltip="prevnexttheme2nextSceneTip"
+         onhover="showTooltip(right,prevnexttheme2TooltipStyle,right);"
+         onout="hideTooltip();"
+         onclick="loadNextScene();"
+    />
+  </layer>
+
+  <events name="prevnexttheme2hideshowcontrolsevent" 
+    onTourStart="prevnexttheme2showPrevNextControls();"
+    keep="true"/>
+  <action name="prevnexttheme2hidePrevNextControls">
+    set(layer[prevnexttheme2btn_prev_pano].visible, false);
+    set(layer[prevnexttheme2btn_next_pano].visible, false);
+  </action>
+  <action name="prevnexttheme2showPrevNextControls">
+    set(layer[prevnexttheme2btn_prev_pano].visible, true);
+    set(layer[prevnexttheme2btn_next_pano].visible, true);
+  </action>
+
+<layer name="prevnexttheme2TooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	background="false"
+	border="false"
+	textshadow="1" textshadowrange="4.0" textshadowangle="45" textshadowcolor="0x000000" textshadowalpha="1"
+	css="color:#e6e6e6;font-family:Helvetica;font-weight:bold;font-size:14px;text-align:center;"
+	width="200"
+	height="17"
+	autoheight="true"
+	selectable="false"
+	zorder="0"
+	xoffset="0"
+	yoffset="0"
+	visible="false"
+	html=""
+	devices="html5"
+/>
+
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+  <!-- Hide / Show Thumbnails -->
+  <action name="hideTourThumbnails">set(tour_displaythumbnails, false);events.dispatch(hidetourthumbnails);</action>
+  <action name="showTourThumbnails">set(tour_displaythumbnails, true); events.dispatch(showtourthumbnails);</action>
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+  <!-- Tour Information -->
+  <action name="hideTourInfo">set(tour_displayinfo, false);events.dispatch(onhidetourinfo);</action>
+  <action name="showTourInfo">set(tour_displayinfo, true); events.dispatch(onshowtourinfo);</action>
+  <!-- MAP -->
+  <action name="hideMap">set(tour_displaymap, false);events.dispatch(onhidetourmap);</action>
+  <action name="showMap">set(tour_displaymap, true); events.dispatch(onshowtourmap);</action>
+</krpano>

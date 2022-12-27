@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[Stiftskirche Freckenhorst]]></data>
+  <data name="en_project_author_name"><![CDATA[peem 2014]]></data>
+  <data name="en_project_author_url"><![CDATA[http://www.pe-em.de]]></data>
+
+
+
+  <data name="en_pano9_title"><![CDATA[Kirchplatz]]></data>
+  <data name="en_spotpoint99_tooltip"><![CDATA[Stiftskammer]]></data>
+
+
+  <data name="en_pano11_title"><![CDATA[Glockenstuhl]]></data>
+
+
+  <data name="en_pano13_title"><![CDATA[Hauptschiff]]></data>
+
+
+  <data name="en_pano15_title"><![CDATA[Querschiff]]></data>
+
+
+  <data name="en_pano16_title"><![CDATA[Chor]]></data>
+
+
+  <data name="en_pano14_title"><![CDATA[Thiathildiskapelle]]></data>
+
+
+  <data name="en_pano10_title"><![CDATA[Krypta]]></data>
+
+
+  <data name="en_pano17_title"><![CDATA[Taufstein]]></data>
+
+
+  <data name="en_pano12_title"><![CDATA[Stiftskammer]]></data>
+
+
+	<data name="en_spotmap28_tooltip"><![CDATA[Kirchplatz]]></data>
+	<data name="en_spotmap31_tooltip"><![CDATA[Kirchplatz]]></data>
+
+
+	<data name="en_project_floor_title"><![CDATA[Stiftskirche St. Bonifatius Freckenhorst]]></data>
+	<data name="en_spotmap30_tooltip"><![CDATA[Kirchplatz]]></data>
+	<data name="en_spotmap32_tooltip"><![CDATA[Glockenstuhl]]></data>
+	<data name="en_spotmap33_tooltip"><![CDATA[Krypta]]></data>
+	<data name="en_spotmap34_tooltip"><![CDATA[Chor]]></data>
+	<data name="en_spotmap35_tooltip"><![CDATA[Querschiff]]></data>
+	<data name="en_spotmap36_tooltip"><![CDATA[Hauptschiff]]></data>
+	<data name="en_spotmap37_tooltip"><![CDATA[Taufstein]]></data>
+	<data name="en_spotmap38_tooltip"><![CDATA[Thiathildiskapelle]]></data>
+	<data name="en_spotmap103_tooltip"><![CDATA[Stiftskammer]]></data>
+	<data name="en_spotmap104_tooltip"><![CDATA[Kirchplatz]]></data>
+
+  <data name="en_floorPlanmenu_label"><![CDATA[Grundriss auswählen]]></data>
+  <data name="en_controlBar_iprevSceneTip"><![CDATA[vorheriges Panorama]]></data>
+  <data name="en_controlBar_inextSceneTip"><![CDATA[nächstes Panorama]]></data>
+  <data name="en_controlBar_izoomInTip"><![CDATA[Einzoomen]]></data>
+  <data name="en_controlBar_izoomOutTip"><![CDATA[Auszoomen]]></data>
+  <data name="en_controlBar_imoveLeftTip"><![CDATA[nach links]]></data>
+  <data name="en_controlBar_imoveRightTip"><![CDATA[nach rechts]]></data>
+  <data name="en_controlBar_imoveUpTip"><![CDATA[nach oben]]></data>
+  <data name="en_controlBar_imoveDownTip"><![CDATA[nach unten]]></data>
+  <data name="en_controlBar_iopenFsTip"><![CDATA[Vollbild anzeigen]]></data>
+  <data name="en_controlBar_icloseFsTip"><![CDATA[Vollbild verlassen]]></data>
+  <data name="en_controlBar_iautorotateOnTip"><![CDATA[Autorotation starten]]></data>
+  <data name="en_controlBar_iautorotateOffTip"><![CDATA[Autorotation stoppen]]></data>
+  <data name="en_controlBar_ishowThumbnailsTip"><![CDATA[Vorschaubilder anzeigen]]></data>
+  <data name="en_controlBar_ihideThumbnailsTip"><![CDATA[Vorschaubilder ausblenden]]></data>
+  <data name="en_controlBar_idisplayFloorplanTip"><![CDATA[Grundriss zeigen]]></data>
+  <data name="en_controlBar_ihideFloorplanTip"><![CDATA[Grundriss ausblenden]]></data>
+  <data name="en_controlBar_idisplayMapTip"><![CDATA[Karte anzeigen]]></data>
+  <data name="en_controlBar_ihideMapTip"><![CDATA[Karte ausblenden]]></data>
+  <data name="en_controlBar_idisplayHelpTip"><![CDATA[Hilfe zeigen]]></data>
+  <data name="en_controlBar_ihideHelpTip"><![CDATA[Hilfe ausblenden]]></data>
+  <data name="en_controlBar_idisplayInfoTip"><![CDATA[Information zeigen]]></data>
+  <data name="en_controlBar_ihideInfoTip"><![CDATA[Information ausblenden]]></data>
+  <data name="en_controlBar_idisplayControlsTip"><![CDATA[Steuerleiste zeigen]]></data>
+  <data name="en_controlBar_ihideControlsTip"><![CDATA[Steuerleiste ausblenden]]></data>
+  <data name="en_panotourmapsmap_title"><![CDATA[Karte]]></data>
+  <data name="en_prevnexttheme2prevSceneTip"><![CDATA[vorherige Szene]]></data>
+  <data name="en_prevnexttheme2nextSceneTip"><![CDATA[nächste Szene]]></data>
+
+
+
+  <data name="en_pano9_description"><![CDATA[<div><h1><span><font face="verdana, sans-serif" size="4">Die Stiftskirche St. Bonifatius</font></p><p><font face="verdana, sans-serif"><br></font></p><p><font face="verdana, sans-serif"></font></span></h1></div><div><p><font face="verdana, sans-serif">Schon oft ist die dem Hl. Bonifatius geweihte Kirche des ehemaligen adeligen Damenstiftes als das neben der Patroklikirche in Soest charakteristisches und bedeutendste Werk der romanischenBaukunst in Westfalen gerühmt worden. Ihr Weihejahr 1129 können wir auf dem lateinischen Inschriftenband am gleichermaßen berühmten Taufstein im Innern der Kirche ablesen. Fast tausend Jahre umfasstdie Geschichte des Stiftes zu Freckenhorst, das, als Kloster gegründet, am Ende des 15. Jahrhunderts in ein freiweltliches Damenstift umgewandelt und 1811 im Zuge der Säkularisation aufgelöst wurde.Die nach einem Brand des Vorgängerbaus errichtete Kirche bildete sinnfällig und weithin sichtbar die Mitte der klösterlichen Niederlassung, so wie sie noch heute die Mitte der Stadt bildet.</font></p><p><font face="verdana, sans-serif"><br></font></p><p><font face="verdana, sans-serif">Burghaft fest sind die wuchtigen, fast schmucklosen Baumassen aus unbearbeiteten Bruchsteinen hingelagert. Der Blick wandert über einen kreuzförmigen Basilikabau mit zwei Chorflankentürmen und einklar gestaffeltes dreischiffiges Langhaus mit einfachen, rundbogigen Fensteröffnungen. Er verharrt dann bei dem gewaltigen Westwerk: Zwischen zwei runden Treppentürmen ragt ein viereckiger Mittelturmauf. Seine einmalige Wirkung erhält er aus der völligen Schlichtheit und Sicherheit des Gesamtgefüges, den in der Höhe dreifach übereinander angeordneten doppelbogigen Schallöffnungen und dempyramidenförmigen Abschluss mit der barock gewölbtem Turmhaube.</font></p><p><font face="verdana, sans-serif"><br></font></p><p>(Quelle für alle Texte: "Die Stiftskirche und ihr Taufstein,Text: Klaus Gruhn)</font></p><p><font face="verdana, sans-serif"><br></font></p><p>http://bonifatius-lambertus.de/kirchen/st-bonifatius/</font></p><p><br></p><p></p><div><h1><br></h1></div><p></p></div>]]></data>
+
+  <data name="en_spotpoint99_description"><![CDATA[Zur Stiftskammer]]></data>
+
+
+  <data name="en_pano11_description"><![CDATA[<font face="verdana, sans-serif">Bemerkenswert ist auch das Geläut&nbsp;der Stiftskirche mit 12 Glocken. Sieben von diesen Glocken werden mit Motorantrieb betrieben, während fünf Glocken nach wievor nur mit der Hand geläutet werden können.</font>]]></data>
+
+
+
+  <data name="en_pano13_description"><![CDATA[<div><div id="textWithImage-5780261514"><p><font face="verdana, sans-serif">Über dem Untergeschoß des Turmes öffnen sich aus einem ehemaligen Frauenchor zwei von hohen Rundbögen zusammengefasste dreiteilige Arkaden zum Innern der Kirche. Erschien uns die Außenwirkung derKirche klar und gleichzeitig malerisch, so antwortet ihr nun ein bei aller Einfachheit schöner und bedeutender Innenraum: Bei der letzten Umgestaltung wurde der Charakter einer romanischen Basilikamit sechs längsrechteckigen Pfeilerpaaren, die Haupt- und Seitenschiffe trennen, fast unverfälscht wiedergewonnen. Während Querschiff und Chor schon bei der Erbauung eingewölbt wurde, war dasMittelschiff ursprünglich flach gedeckt und erhielt erst gegen Ende des 15. Jahrhunderts ein gotisches Kreuzrippengewölbe.</font></p></div> </div><div><p><br></p></div>]]></data>
+
+
+
+
+
+
+  <data name="en_pano16_description"><![CDATA[Belebend wirken auch die drei spätgotischen Tabernakeltürme, Stiftungen jener Äbtissin Maria von Tecklenburg, die das Mittelschiff der Kirche einwölben ließ. Zwei von ihnen, ausgezeichneteSteinmetzarbeiten, sind flächig vor die Abschlusswand des Hochchores gesetzt. Ein drittes erhebt sich in edler Maßwerkarbeit mit seinem gotisch-spitzen Turmaufbau vor dem nördlichen Vierungspfeiler.Am unteren Rand seiner Tabernakelzone kann man einen kleinen Elefanten entdecken, das uralte Symbol der Weisheit und Stärke.]]></data>
+
+
+
+  <data name="en_pano14_description"><![CDATA[<font face="verdana, sans-serif">Zum geschichtlichen Ursprung von Stift und Kirche in Freckenhorst führt die Thiatildiskapelle mit dem barocken Thiatildisschrein im südlichen Querhaus. Bischof Christoph Bernhard von Galenschenkte ihn dem Stift im Jahre 1669. Die Schenkung bezeichnet auch den glanzvollen äußeren Abschluss der Gegenreformation im östlichen Münsterland. In der Hl. Thiatildis aber begegnet uns die alserste Äbtissin eingesetzte Nichte des kinderlosen sächsischen Adeligen Everword. Er und seine Frau Geva gründeten im 9. Jahrhundert das Kloster Freckenhorst.</font>]]></data>
+
+
+
+
+
+
+  <data name="en_pano17_description"><![CDATA[<font face="verdana, sans-serif">Auf einem attischen Profil erhebt sich der Taufstein in Form einer Säulentrommel. Das auf die Kirchweihe von 1129 bezogene Inschriftenband trennt zwei Reliefzonen, während ein Ornamentfries denoberen Abschluss bildet. Sechs Löwen der unteren Zone, in denen das in Bann geschlagene Böse anschaulich wird, tragen widerwillig die Hauptzone mit den bildnerischen Darstellungen der christlichenHeilsgeschichte. Zwischen den Löwen bemerken wir einen Menschenkopf, wohl David in der Löwengrube, als Hinweis auf die Heilsgewissheit. Sieben Bilder, von Säulen getrennt und von reich ornamentiertenArkaden übergewölbt, veranschaulichen in der oberen Zone das von Christus geschenkte Heil, das durch die Taufe zugänglich wird. Sieben ist dabei zugleich die Zahl der Fülle und Vollkommenheit. Ganzauf die wesentlichen Motive konzentriert begegnen uns so folgende Darstellungen: die Verkündung Jesu und seine Geburt, seine Taufe - als Auferstehung Christi in einer Doppelszene, die Himmelfahrt unddie Wiederkunft Christi im Weltgericht. ....</font>]]></data>
+
+
+
+  <data name="en_pano12_description"><![CDATA[<p><font face="verdana, sans-serif" size="4">Die Stiftskammer in der Petrikapelle</font></p><p><font face="verdana, sans-serif"><br></font></p><p><font face="verdana, sans-serif"></font></p><p><font face="verdana, sans-serif">Die romanische Petrikapelle steht unmittelbar neben der Stiftskirche im Warendorfer Ortsteil Freckenhorst. In ihr befindet sich seit einigen Jahren ein kleines Museum, die so genannteStiftskammer. Hier werden die wertvollsten Schätze aus einer jahrhundertealten Kloster- und Stiftsgeschichte ausgestellt: Kunstwerke aus der Stiftszeit (u.a. Silberschmiedearbeiten, liturgischeBücher, das Hungertuch von 1628, Messgewänder, Stab des HL. Bonifatius u.ä.). Die Schatzkammer wurde 2001 (im Jubiläumsjahr) durch Ingrid Bussenius (Innenarchitektin aus Köln) eingerichtet. ImSeptember 2010 wurde außerdem ein begehbares Depot mit den Kunstschätzen der Kirchengemeinde im Kreuzgang eingeweiht.</font></p><p><font face="verdana, sans-serif">&nbsp;</font></p><p><font face="verdana, sans-serif"><span style="text-decoration: underline;">Öffnungszeiten:</span> Die Stiftskammer ist in der Petrikapelle in den Sommermonaten von April bis Oktober Sonntags von 11.30 – 12.30 Uhr und von 15.00 –16.00 Uhr geöffnet. Einzel- und Gruppenführungen sind jederzeit nach Anmeldung im Pfarrbüro möglich.</font></p>]]></data>
+</krpano>
