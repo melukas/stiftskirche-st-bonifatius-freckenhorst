@@ -494,7 +494,7 @@ mxn.register('openlayers', {
 						outFeature : function(feature) {
 							var marker = feature.mapstraction_marker;
 							if (!!marker.hoverIconUrl) {
-								var iconUrl = marker.iconUrl || 'http://openlayers.org/dev/img/marker-gold.png';
+								var iconUrl = marker.iconUrl || 'https://openlayers.org/dev/img/marker-gold.png';
 								marker.setUrl(iconUrl);
 							}
 							if (marker.hover && !!marker.popup) {
@@ -1157,7 +1157,7 @@ OLD
 				this.icon = new OpenLayers.Icon(this.iconUrl, size, anchor);
 			}
 			else {
-				markerIcon = 'http://openlayers.org/dev/img/marker-gold.png';
+				markerIcon = 'https://openlayers.org/dev/img/marker-gold.png';
 				this.icon = new OpenLayers.Icon(this.iconUrl, size, anchor);
 			}
 			

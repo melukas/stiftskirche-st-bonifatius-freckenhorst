@@ -467,8 +467,8 @@ function showKolorArea(pPlugID, pContent)
 var KolorMapApiProviders  = new Object();
 KolorMapApiProviders.Type = { googlev3: "googlev3", openlayers: "openlayers", microsoft7: "microsoft7" };
 KolorMapApiProviders.Url  = { googlev3: "https://maps.googleapis.com/maps/api/js?sensor=false&v=3.15&callback=handleApiReady", 
-		openlayers: "http://openlayers.org/api/2.12/OpenLayers.js",
-		microsoft7: "http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&s=1&onscriptload=handleApiReady"
+		openlayers: "https://openlayers.org/api/2.12/OpenLayers.js",
+		microsoft7: "https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&s=1&onscriptload=handleApiReady"
 	};
 KolorMapApiProviders.Key = { googlev3: "&key=", openlayers: "", microsoft7: "" };
 KolorMapApiProviders.Script = { googlev3: "mxn.googlev3.core.js", openlayers: "mxn.openlayers.core.js", microsoft7: "mxn.microsoft7.core.js" };
